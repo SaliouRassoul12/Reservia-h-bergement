@@ -80,6 +80,7 @@ header{
 	height: 40px;
 	margin-left: -14px;
 	font-size: 12px;
+	justify-content:center ;
 }
 
 .btn1{
@@ -185,6 +186,11 @@ ul{
 	border-top: 1px solid #0065FC;
 }
 
+.Activite a:hover{
+	color:red;
+
+}
+
 .inscription {
 	justify-content: space-evenly;
 	top: auto;
@@ -272,7 +278,7 @@ ul{
 	box-shadow: 1px 1px 0.5px#F2F2F2;
 	margin-left:-20px;
 	margin-right:10px ;
-	align-items:flex-end;
+	align-items:center;
 	justify-content: center;
 }
 
@@ -321,7 +327,7 @@ ul{
 	align-items: ;
 	border-radius: 50%;
 	margin-right: 12px;
-	text-align: center;
+    align-items: center;
 
 }
 
@@ -358,8 +364,6 @@ ul{
 	border-radius: 50%;
     margin-left: -99px;
 	margin-right: 10px;
-	justify-content: center;
-	align-items: center;
 }
 
 .btn3 {
@@ -396,8 +400,6 @@ ul{
 	list-style:None;
 	margin-left:-30px;
 	margin-right: 10px;
-	justify-content: center;
-	align-items: center;
 }
 
 .btn4 {
