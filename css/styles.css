@@ -54,7 +54,7 @@ header{
     margin-left: 3%;
 }
 
-.icones{
+.iconees{
     display:inline-block;
 	margin:auto;
 }
@@ -78,7 +78,7 @@ header{
 	margin: auto;
 	justify-content:space-between;
 	height: 40px;
-	margin-left: -14px;
+	margin-left: 0px;
 	font-size: 12px;
 	justify-content:center ;
 }
@@ -154,7 +154,7 @@ ul{
 	right: 12px;
 	justify-content: space-between;
 	padding-top: 8px;
-	margin-right: 10px;
+	margin-right: -10px;
 	cursor: pointer;
 }
 
@@ -260,12 +260,15 @@ ul{
 	justify-content: center;
 	/* border: 1px solid black; */
 	/* width: 70%; */
-	height: 30px;
-	margin-left: 50px;
+	/* height: 30px; */
+	height: 50px;
+	line-height:50px;
+	margin-left: 30px;
 	text-transform:capitalize;
-	
 }
-
+.icones i {
+	line-height:35px;
+}
 
 .fa-money-bill {
 	display: flex;
@@ -280,13 +283,6 @@ ul{
 	margin-right:10px ;
 	align-items:center;
 	justify-content: center;
-}
-
-.fa-money-bill{
-	justify-content: center;
-	align-items: center;
-	text-align: center;
-	transform: translate(-50% -50%);
 }
 
 .money{
@@ -422,15 +418,13 @@ ul{
 	margin-left: 10px;
 }
 
-.fa-info-circle{ 
+.fa-info{ 
 	display: inline-block;
-	background-color:#0065FC;
-	color:#DEEBFF ;
-
-	margin-left:3%;
-	border-radius:;
+	/*couleur du fond de l icone*/
 	
-	border: 1px solid #DEEBFF;
+	color:#0065FC ;
+	/* margin-left:3%; */
+	/* border: 1px solid #DEEBFF; */
 }
 
 .marseilleetpopulaires{
@@ -457,7 +451,7 @@ div.marseille{
 
 .HM{
 	margin-top: -20px;
-	margin-left:-1px;
+	margin-right:10px;
 	font-size: 14px;
 	/*position: relative;
 	top:52px;
@@ -479,9 +473,9 @@ div.marseille{
    text-align:;
    margin-top: auto;
    margin-right:25px;
-   margin-left: -216px;
+   margin-left: -200px;
    margin-bottom: 12px;
-   width: 200px;
+   width: 160px;
    height:132px;
    border-radius:10px;
    font-size: 10px;
@@ -498,7 +492,7 @@ div.marseille{
    border: 1px solid transparent;
    font-size: 10px;
    text-align:start;
-   width: 200px;
+   width: 160px;
    height:70px;
    border-top-left-radius: 10px;
    border-top-right-radius: 10px;
@@ -526,13 +520,8 @@ div.marseille{
 	top:-23px;
 }
 
-.far{
-	border: 0px solid grey;
-    color: grey;
-}
-
-.staredge{
-
+.grey{
+	color:#DEEBFF;
 }
 
 .Cartehotelduport{
@@ -541,12 +530,11 @@ div.marseille{
    padding: 1px;
    padding-left: 0px;
    font-size: 9px;
-   text-align:;
    margin-right:10px;
    margin-left: -10px;
    margin-bottom: 12px;
    margin-top: auto;
-   width: 200px;
+   width: 160px;
    height:132px;
    border-radius:10px;
    font-size: 10px;
@@ -558,7 +546,7 @@ div.marseille{
    border: 1px solid transparent;
    font-size: 10px;
    text-align:start;
-   width: 200px;
+   width: 160px;
    height:70px;
    border-top-left-radius: 10px;
    border-top-right-radius: 10px;
@@ -599,7 +587,7 @@ div.marseille{
    text-align:start;
    margin-bottom: 12px;
    margin-top: auto;
-   width: 200px;
+   width: 160px;
    height:132px;
    border-radius:10px;
    font-size: 10px;
@@ -610,7 +598,7 @@ div.marseille{
    background-color:#ffff;
    border: 1px solid transparent;
    font-size: 10px;
-   width: 200px;
+   width: 160px;
    height:70px;
    border-top-left-radius: 10px;
    border-top-right-radius: 10px;
@@ -646,9 +634,9 @@ div.marseille{
    padding-left: 0px;
    font-size: 14px;
    text-align:start;
-   margin-left: -25px;
+   margin-left: -5px;
    margin-top: 25px;
-   width: 200px;
+   width: 160px;
    height:132px;
    border-radius:10px;
    font-size: 10px;
@@ -660,7 +648,7 @@ div.marseille{
    border: 1px solid transparent;
    font-size: 10px;
    text-align:start;
-   width: 200px;
+   width: 160px;
    height:70px;
    border-top-left-radius: 10px;
    border-top-right-radius: 10px;
@@ -698,7 +686,7 @@ div.marseille{
    text-align:start;
    margin-top: 25px;
    margin-left:0px;
-   width: 200px;
+   width: 160px;
    height:132px;
    border-radius:10px;
    font-size: 10px;
@@ -710,7 +698,7 @@ div.marseille{
    border: 1px solid transparent;
    font-size: 10px;
    text-align:start;
-   width: 200px;
+   width: 160px;
    height:70px;
    border-top-left-radius: 10px;
    border-top-right-radius: 10px;
@@ -746,7 +734,7 @@ div.marseille{
    font-size: 14px;
    margin-top: 25px;
    text-align:start;
-   width: 200px;
+   width: 160px;
    height:132px;
    border-radius:10px;
    font-size: 10px;
@@ -758,7 +746,7 @@ div.marseille{
    border: 1px solid transparent;
    font-size: 10px;
    text-align:start;
-   width: 200px;
+   width: 160px;
    height:70px;
    border-top-left-radius: 10px;
    border-top-right-radius: 10px;
@@ -838,13 +826,13 @@ div.marseille{
 	display:inline-flex;
 	background-color:#F2F2F2;
 	border-radius: 12px;
-	width: 53%;
+	width: 56%;
 	height: 370px;
 	justify-content: space-between;
 	flex-wrap: wrap;
 	padding-top: 50px;
 	padding-bottom: 20px;
-	padding-left: 60px;
+	padding-left: 40px;
 	padding-right: 40px;
 	align-items: space-between;
 	margin-left:3%;
@@ -860,17 +848,11 @@ div.marseille{
 	height: 372px;*/
 }
 
-.b{
+.titres{
+	margin-right: -30px;
 
-	
 
 }
-
-
-@media screen {()
-	
-}
-
 .b1{
    /* display:inline-block;
 	width: 30.5%;
@@ -883,35 +865,34 @@ div.marseille{
 	border:1px solid #F2F2F2;
 	border-radius: 12px;
 	flex-direction: column; 
-    width:30%; 
+    width:25%; 
 	padding-top: 10px;	
 	padding-bottom: 10px;
+	padding-left: 10px;
+	padding-right: 10px;
     height:421px;
 	font-size: 10px;
-    margin-left:3.5%;
+    margin-left:3%;
 	margin-right:0%;
 	justify-content: space-evenly;
 	align-items: center;
 }
 
-.
-
 .AP{
 	font-weight:bolder;
 	font-size:small;
 	margin-top:12px;
-	margin-left:-60px;
+	margin-right:20px;
 	/*position:relative;
 	top:-45px;
 	left:63px;*/
 }
-
 .fa-chart-line{
 	
 	
-/*	position: relative;
-	top:-12px;
-	right:-231px;*/
+ 	position: relative;
+	top:-3px;
+	right:-75px;
 }
 
 
@@ -950,7 +931,7 @@ div.marseille{
     border: 1px solid white;
     background-color:#ffff;
     height: 80px;
-    width: 300px;
+    width: 210px;
     border-radius: 10px;
 	text-align:justify;
     align-items: flex-start;
@@ -1016,7 +997,7 @@ div.marseille{
 	border: 1px solid white;
 	background-color:#ffff;
 	height: 80px;
-	width:300px;
+	width:210px;
 	border-radius: 10px;
 	font-size: 9px;
 	box-shadow: 2px 1px 0.3px whitesmoke;
@@ -1082,7 +1063,7 @@ div.marseille{
 	border: 1px solid white;
 	background-color:#Ffff;
 	height: 80px;
-	width:300px;	
+	width:210px;	
 	border-radius: 10px;
     box-shadow: 2px 1px 0.3px whitesmoke;
 	padding-bottom: 0px;
@@ -1153,7 +1134,7 @@ div.marseille{
 	display:grid;
 	gap: px;
     grid-template-columns: 240px 230px 240px 230px ;
-	width:100%;
+	width:79%;
 	height: hv;
     padding: 0px;
     padding-right: 0px;
@@ -1164,7 +1145,7 @@ div.marseille{
 
 .lescartesbas{
 	display: inline-flex;
-	margin-left: 0%;
+	margin-left: -1%;
 	align-self: ;
 
     
