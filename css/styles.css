@@ -476,7 +476,7 @@ div.marseille{
    font-size: 9px;
    margin-top: auto;
    margin-right:25px;
-   margin-left: -200px;
+   margin-left: -195px;
    margin-bottom: 12px;
    width: 165px;
    height:132px;
@@ -580,7 +580,7 @@ div.marseille{
 
 .CartehotellesMouettes{
    background-color:white;
-   border: 0.1px solid white;
+   border: 0.1px solid transparent;
    padding: 1px;
    padding-left: 0px;
    font-size: 14px;
@@ -619,13 +619,19 @@ div.marseille{
 }
 
 .Istars3{
-	background-color: #ffff;
-	border: 0px solid none;
+	background-color:;
+	/* border: 0px solid none; */
 	color:#0065fc;
 	margin-left: 10px;
 	position: relative;
 	top:-23px;
 }
+
+.grey{
+	color:#DEEBFF;
+
+}
+
 
 .Cartehoteldelamer{
     background-color:white;
@@ -676,6 +682,13 @@ div.marseille{
 	position: relative;
 	top:-23px;
 }
+
+.grey{
+	color:rgb(226, 225, 225);
+
+}
+
+
 
 .CarteAubergelePanier{
    background-color:white;
