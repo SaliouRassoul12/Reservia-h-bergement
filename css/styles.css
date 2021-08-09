@@ -46,6 +46,11 @@ header{
 	margin:auto;
 }
 
+.filtres{
+	font-size: small;
+
+}
+
 .filtericone{
   /* display: flex;
   background-color: #0065fc;
@@ -261,7 +266,7 @@ header a:hover.Activite {
 	line-height:50px;
 	margin-left: 20px;
 	text-transform:capitalize;
-	font-size: small;
+	font-size: smaller;
 }
 .icones i {
 	line-height:35px;
