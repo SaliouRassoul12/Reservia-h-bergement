@@ -261,6 +261,7 @@ header a:hover.Activite {
 	line-height:50px;
 	margin-left: 20px;
 	text-transform:capitalize;
+	font-size: small;
 }
 .icones i {
 	line-height:35px;
@@ -1044,6 +1045,10 @@ div.marseille{
 	right:*/
 }
 
+.grey{
+	color:rgb(226, 225, 225)
+}
+
 .NI8{
 	display:block;
 	align-items:flex-start;
@@ -1121,6 +1126,10 @@ div.marseille{
    /* position: relative;
 	top:12px;
 	right:*/
+}
+
+.grey{
+	color:rgb(226, 225, 225)
 }
 
 .carte14{
