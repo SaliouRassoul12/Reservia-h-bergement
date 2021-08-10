@@ -81,13 +81,17 @@ header{
 	border-radius:12px;
 	align-items: center;
 	margin: 40px;
+	/* transform: scale(1.2); */
+	/* transition:transform 1ms; */
 }
 
-.fa-star{
+.btn1:hover{
+	transform: scale(1.2);
+}
+
+/* .fa-star{
 	border: 0px solid transparent;
-
-
-}
+} */
 
 .btn2{
 	display: flex;
@@ -95,7 +99,13 @@ header{
 	border-radius:12px;
 	align-items: center;
 	margin: 40px;
+	transition: transform 1ms;
 }
+
+.btn2:hover{
+	transform: scale(1.2);
+}
+
 
 .btn3{
 	display: flex;
@@ -103,7 +113,11 @@ header{
 	border-radius:12px;
 	align-items: center;
 	margin: 40px;
+    transition: transform 1ms;
+}
 
+.btn3:hover{
+	transform: scale(1.2);
 }
 
 .btn4{
@@ -112,6 +126,11 @@ header{
 	border-radius:12px;
 	align-items: center;
 	margin: 40px;
+	transition: transform 1ms;
+}
+
+.btn4:hover{
+	transform: scale(1.2);
 }
 
 /*
@@ -441,7 +460,7 @@ header a:hover.Activite {
 	display:inline-block;
 }
 
-div.marseille{
+/* div.marseille{
 	display:flex;
 	background-color:#F2F2F2;
 	border-radius: 12px;
@@ -456,7 +475,7 @@ div.marseille{
 	align-items: space-between;
 	margin-left: 10px;
 	border: 1px solid #F2F2F2;
-} 
+}  */
 
 
 .HM{
@@ -469,12 +488,7 @@ div.marseille{
 	font-size: medium;*/
 }
 
-.CarteAubergelaCannebiere a:hover{  
-	-webkit-transform: scale(1.1);
-}
-
 .CarteAubergelaCannebiere{
- 
    background-color:white;
    border: 0.1px solid white;
    padding: 1px;
@@ -489,11 +503,16 @@ div.marseille{
    border-radius:10px;
    font-size: 10px;
    box-shadow: 2px 1px 0.3px whitesmoke;
+   transition: transform 1ms;
 } 
 
-#far {
-	border: 1px solid transparent;
+.CarteAubergelaCannebiere:hover{
+	transform: scale(1.2);
 }
+
+/* #far {
+	border: 1px solid transparent;
+} */
 
 .carte6{
    background-color:#ffff;
@@ -547,7 +566,12 @@ div.marseille{
    border-radius:10px;
    font-size: 10px;
    box-shadow: 2px 1px 0.3px whitesmoke;
+   transition: transform 1ms;
 }
+
+/* .Cartehotelduport{
+	transform: scale(1.2);
+} */
 
 .carte7{
    background-color:#ffff;
@@ -598,7 +622,12 @@ div.marseille{
    border-radius:10px;
    font-size: 10px;
    box-shadow: 2px 1px 0.3px whitesmoke;
+   transition: transform 1ms;
 }
+
+/* .CartehotellesMouettes{
+	transform: scale(1.2);
+} */
 
 .carte08{
    background-color:#ffff;
@@ -640,7 +669,7 @@ div.marseille{
 
 
 .Cartehoteldelamer{
-    background-color:white;
+   background-color:white;
    border: 0.1px solid white;
    padding: 1px;
    padding-left: 0px;
@@ -653,7 +682,12 @@ div.marseille{
    border-radius:10px;
    font-size: 10px;
    box-shadow: 2px 1px 0.3px whitesmoke;
+   transition: transform 1ms;
 }
+
+/* .Cartehoteldelame{
+	transform: scale(1.2);
+} */
 
 .carte09{
    background-color:#ffff;
@@ -691,7 +725,6 @@ div.marseille{
 
 .grey{
 	color:rgb(226, 225, 225);
-
 }
 
 
@@ -710,7 +743,12 @@ div.marseille{
    border-radius:10px;
    font-size: 10px;
    box-shadow: 2px 1px 0.3px whitesmoke;
+   transition: transform 1ms;
 }
+
+/* .CarteAubergelePanier{
+	transform: scale(1.2);
+} */
 
 .carte10{
    background-color:#ffff;
@@ -758,7 +796,12 @@ div.marseille{
    border-radius:10px;
    font-size: 10px;
    box-shadow: 2px 1px 0.3px whitesmoke;
+   transition: transform 1ms;
 }
+
+/* .CarteHotelchezAmania{
+	transform: scale(1.2);
+} */
 
 .carte11{
    background-color:#ffff;
@@ -955,6 +998,10 @@ div.marseille{
 	margin-left: 30px;
 	caption-side: top;
 }
+
+/* .Cartehotellesoleildumatin{
+	transform: scale(1.2);
+} */
 
 .Cartehotellesoleildumatin{
 	display:flex;
