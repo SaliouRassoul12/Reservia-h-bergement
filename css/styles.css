@@ -143,7 +143,7 @@ ul{
 	margin: 12px;
 }
 
-header .Activite{
+header .Activite:visited{
 	color: grey;
 	font-weight: bold;
 }
@@ -556,9 +556,9 @@ header a:hover.Activite {
    transition: transform 1ms;
 }
 
-/* .Cartehotelduport{
+.Cartehotelduport:hover{
 	transform: scale(1.2);
-} */
+} 
 
 .carte7{
    background-color:#ffff;
@@ -612,9 +612,9 @@ header a:hover.Activite {
    transition: transform 1ms;
 }
 
-/* .CartehotellesMouettes{
+.CartehotellesMouettes:hover{
 	transform: scale(1.2);
-} */
+} 
 
 .carte08{
    background-color:#ffff;
@@ -668,12 +668,12 @@ header a:hover.Activite {
    border-radius:10px;
    font-size: 10px;
    box-shadow: 2px 1px 0.3px whitesmoke;
-   transition: transform 1ms;
 }
 
-/* .Cartehoteldelame{
+.Cartehoteldelamer:hover{
 	transform: scale(1.2);
-} */
+	transition:transform 1ms;
+} 
 
 .carte09{
    background-color:#ffff;
@@ -732,9 +732,9 @@ header a:hover.Activite {
    transition: transform 1ms;
 }
 
-/* .CarteAubergelePanier{
+.CarteAubergelePanier:hover{
 	transform: scale(1.2);
-} */
+} 
 
 .carte10{
    background-color:#ffff;
@@ -785,9 +785,9 @@ header a:hover.Activite {
    transition: transform 1ms;
 }
 
-/* .CarteHotelchezAmania{
+.CarteHotelchezAmania:hover{
 	transform: scale(1.2);
-} */
+} 
 
 .carte11{
    background-color:#ffff;
@@ -906,9 +906,9 @@ header a:hover.Activite {
 	caption-side: top;
 }
 
-/* .Cartehotellesoleildumatin{
+.Cartehotellesoleildumatin:hover{
 	transform: scale(1.2);
-} */
+} 
 
 .Cartehotellesoleildumatin{
 	display:flex;
@@ -974,6 +974,10 @@ header a:hover.Activite {
 	caption-side: top;
 }
 
+.CarteAucouereauchambreHotes:hover{  
+	transition:transform 1ms;
+	transform: scale(1.2);
+}
 .CarteAucouereauchambreHotes{
     display:flex;
 	margin-top:20px ;
@@ -1042,6 +1046,11 @@ header a:hover.Activite {
 	padding-bottom: 0px;
 	font-size: 9px;
 	caption-side: top;
+}
+
+.CarteHotelToutbleuetBlanc:hover{  
+	transition:transform 1ms;
+	transform: scale(1.2);
 }
 
 .CarteHotelToutbleuetBlanc{
@@ -1147,6 +1156,11 @@ header a:hover.Activite {
 	margin-right:15px;
 }
 
+.vieuxport:hover{
+	transition:transform 1ms;
+	transform: scale(1.2);
+}
+
 .Viewport{
 	padding-left: 12px;
 	padding-top: 12px;
@@ -1177,6 +1191,11 @@ header a:hover.Activite {
 	margin-left:20px;
 }
 
+.fortdepomegue:hover{  
+	transition:transform 1ms;
+	transform: scale(1.2);
+}
+
 .FortdePomegues{
 	padding-left: 12px;
 	padding-top: 12px;
@@ -1205,6 +1224,11 @@ header a:hover.Activite {
 	box-shadow: 2px 1px 0.3px whitesmoke;
 	padding-top: 58px;
 	margin-left: 20px;
+}
+
+.ilesdufrioul:hover{  
+	transition:transform 1ms;
+	transform: scale(1.2);
 }
 
 .frioul{
@@ -1239,6 +1263,11 @@ header a:hover.Activite {
 	margin-right:0px;
 }
 
+.parcnationaldescalenques:hover{  
+	transition:transform 1ms;
+	transform: scale(1.2);
+}
+
 .Calenques{
 	padding-left: 12px;
 	padding-top: 12px;
@@ -1266,6 +1295,11 @@ header a:hover.Activite {
 	font-size:10px;
 	border-radius:10px;
 	box-shadow: 2px 1px 0.3px whitesmoke;
+}
+
+.notredamedelagarde:hover{  
+	transition:transform 1ms;
+	transform: scale(1.2);
 }
 
 .Dame{
@@ -1297,6 +1331,11 @@ header a:hover.Activite {
 	font-size: 10px;
 	box-shadow: 2px 1px 0.3px whitesmoke;
 	padding-top: 60px;
+}
+
+.longchamp:hover{  
+	transition:transform 1ms;
+	transform: scale(1.2);
 }
 
 .long{
