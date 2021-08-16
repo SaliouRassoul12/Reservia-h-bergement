@@ -851,6 +851,366 @@
         margin-right: -30px;
     }
     
+    @media screen and (max-width:480px) {
+        .Hebergement,
+        .Activite {
+            display: inline-block;
+            margin-left: 0px;
+            padding-left: 20px;
+            width: 50%;
+        }
+        .Activite {}
+        header a:hover.Activite {
+            border-bottom: 1px solid #0065fc;
+            border-top: none;
+        }
+        .Hebergement {
+            border-bottom: 1px solid blue;
+            border-top: none;
+        }
+        .fa-search {
+            display: none;
+            align-items: center;
+            justify-content: center;
+            width: 30px;
+            height: 30px;
+            color: white;
+            background-color: #0065FC;
+            border: 1px solid #0065fc;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            padding-right: ;
+            font-size: 12px;
+            font-weight: bold;
+            margin-left: -12px;
+        }
+        .b {
+            display: block;
+            background-color: none;
+            width: 100%;
+            height: auto;
+            margin: 0px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: left;
+            padding: 0px;
+            margin-bottom: 25px;
+            margin-top: 15px;
+            z-index: 2;
+        }
+        .filtericone {
+            display: inline-flex;
+        }
+        .CarteAubergelaCannebiere {
+            background-color: white;
+            border: 0.1px solid white;
+            padding: auto;
+            padding-left: auto;
+            font-size: 9px;
+            margin-top: auto;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: auto;
+            width: 100%;
+            height: vh;
+            border-radius: 10px;
+            font-size: 10px;
+            box-shadow: 2px 1px 0.3px whitesmoke;
+            transition: transform 1ms;
+        }
+        .carte6 {
+            background-color: #ffff;
+            border: 1px solid transparent;
+            font-size: 10px;
+            text-align: start;
+            width: 100%;
+            height: hv;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            margin-left: auto;
+        }
+        .Cartehotelduport {
+            background-color: white;
+            border: 0.1px solid white;
+            padding: auto;
+            padding-left: 0px;
+            font-size: 9px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 12px;
+            margin-top: auto;
+            width: 100%;
+            height: hv;
+            border-radius: 10px;
+            font-size: 10px;
+            box-shadow: 2px 1px 0.3px whitesmoke;
+            transition: transform 1ms;
+        }
+        .carte7 {
+            background-color: #ffff;
+            border: 1px solid transparent;
+            font-size: 10px;
+            text-align: start;
+            width: 100%;
+            height: hv;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            margin-left: auto;
+        }
+        .CartehotellesMouettes {
+            background-color: white;
+            border: 0.1px solid white;
+            padding: auto;
+            padding-left: 0px;
+            font-size: 9px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 12px;
+            margin-top: auto;
+            width: 100%;
+            height: hv;
+            border-radius: 10px;
+            font-size: 10px;
+            box-shadow: 2px 1px 0.3px whitesmoke;
+            transition: transform 1ms;
+        }
+        .carte08 {
+            background-color: #ffff;
+            border: 1px solid transparent;
+            font-size: 10px;
+            text-align: start;
+            width: 100%;
+            height: hv;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            margin-left: auto;
+        }
+        .Cartehoteldelamer {
+            background-color: white;
+            border: 0.1px solid white;
+            padding: auto;
+            padding-left: 0px;
+            font-size: 9px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 12px;
+            margin-top: auto;
+            width: 100%;
+            height: hv;
+            border-radius: 10px;
+            font-size: 10px;
+            box-shadow: 2px 1px 0.3px whitesmoke;
+            transition: transform 1ms;
+        }
+        .carte09 {
+            background-color: #ffff;
+            border: 1px solid transparent;
+            font-size: 10px;
+            text-align: start;
+            width: 100%;
+            height: hv;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            margin-left: auto;
+        }
+        .CarteAubergelePanier {
+            background-color: white;
+            border: 0.1px solid white;
+            padding: auto;
+            padding-left: 0px;
+            font-size: 9px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 12px;
+            margin-top: auto;
+            width: 100%;
+            height: hv;
+            border-radius: 10px;
+            font-size: 10px;
+            box-shadow: 2px 1px 0.3px whitesmoke;
+            transition: transform 1ms;
+        }
+        .carte10 {
+            background-color: #ffff;
+            border: 1px solid transparent;
+            font-size: 10px;
+            text-align: start;
+            width: 100%;
+            height: hv;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            margin-left: auto;
+        }
+        .CarteHotelchezAmania {
+            background-color: white;
+            border: 0.1px solid white;
+            padding: auto;
+            padding-left: 0px;
+            font-size: 9px;
+            margin-right: auto;
+            margin-left: auto;
+            margin-bottom: 12px;
+            margin-top: auto;
+            width: 100%;
+            height: hv;
+            border-radius: 10px;
+            font-size: 10px;
+            box-shadow: 2px 1px 0.3px whitesmoke;
+            transition: transform 1ms;
+        }
+        .carte11 {
+            background-color: #ffff;
+            border: 1px solid transparent;
+            font-size: 10px;
+            text-align: start;
+            width: 100%;
+            height: hv;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            margin-left: auto;
+        }
+        .ReserviaHebergement {
+            display: block;
+            width: auto;
+            margin: 0px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: left;
+        }
+        .footer {
+            display: block;
+            width: auto;
+            margin-left: 0px;
+            margin-right: 0px;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .lescartesbas {
+            display: flex;
+            width: 100%;
+            margin-left: auto;
+            flex-direction: column;
+            justify-content: center;
+            align-items: left;
+            padding-left: auto;
+            padding-right: auto;
+            background-color: red;
+        }
+        .vieuxport {
+            display: block;
+            height: hv;
+            width: 100%;
+            font-size: 10px;
+            border-radius: 10px;
+            background-color: #ffff;
+            border: 1px solid transparent;
+            box-shadow: 2px 1px 0.3px whitesmoke;
+            margin-left: 26px;
+            margin-right: 15px;
+        }
+        .carte15 .fortdepomegue {
+            display: block;
+            height: 363px;
+            width: 205px;
+            font-size: 10px;
+            border-radius: 10px;
+            background-color: #ffff;
+            border: 1px solid transparent;
+            box-shadow: 2px 1px 0.3px whitesmoke;
+            margin-left: 26px;
+            margin-right: 15px;
+        }
+        .ilesdufrioul {
+            display: block;
+            height: 363px;
+            width: 205px;
+            font-size: 10px;
+            border-radius: 10px;
+            background-color: #ffff;
+            border: 1px solid transparent;
+            box-shadow: 2px 1px 0.3px whitesmoke;
+            margin-left: 26px;
+            margin-right: 15px;
+        }
+        .parcnationaldescalenques {
+            display: block;
+            height: 363px;
+            width: 205px;
+            font-size: 10px;
+            border-radius: 10px;
+            background-color: #ffff;
+            border: 1px solid transparent;
+            box-shadow: 2px 1px 0.3px whitesmoke;
+            margin-left: 26px;
+            margin-right: 15px;
+        }
+        .notredamedelagarde {
+            display: block;
+            height: 363px;
+            width: 205px;
+            font-size: 10px;
+            border-radius: 10px;
+            background-color: #ffff;
+            border: 1px solid transparent;
+            box-shadow: 2px 1px 0.3px whitesmoke;
+            margin-left: 26px;
+            margin-right: 15px;
+        }
+        .longchamp {
+            display: block;
+            height: 363px;
+            width: 205px;
+            font-size: 10px;
+            border-radius: 10px;
+            background-color: #ffff;
+            border: 1px solid transparent;
+            box-shadow: 2px 1px 0.3px whitesmoke;
+            margin-left: 26px;
+            margin-right: 15px;
+        }
+        .b1 {
+            margin-top: ;
+            margin-right: ;
+            border: 1px solid white;
+            background-color: red;
+            height: hv;
+            width: 100%;
+            border-radius: 10px;
+            text-align: justify;
+            align-items: flex-start;
+            font-size: 9px;
+            box-shadow: 2px 1px 0.3px whitesmoke;
+            margin-left: ;
+            caption-side: top;
+            z-index: 1;
+        }
+        .carte12,
+        .carte13,
+        .carte14 {
+            display: block;
+            margin-bottom: ;
+            padding: 1px;
+            align-items: center;
+        }
+        .b1 {}
+        .Cartehotellesoleildumatin {
+            margin-top: -10px;
+            margin-right: 25px;
+            border: 1px solid white;
+            background-color: #ffff;
+            height: hv;
+            width: 100%;
+            border-radius: 10px;
+            text-align: cent;
+            align-items: flex-start;
+            font-size: 9px;
+            box-shadow: 2px 1px 0.3px whitesmoke;
+            margin-left: 0px;
+            caption-side: top;
+        }
+    }
+    
     .b1 {
         display: inline-flex;
         background-color: #F2F2F2;
