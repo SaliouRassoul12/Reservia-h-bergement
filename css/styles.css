@@ -140,6 +140,23 @@
         margin-top: -8px;
     }
     
+    @media screen and (max-width:480px) {
+        .iconeetparagraphe {
+            background-color: #0065FC;
+            /* .iconeetparagraphe {
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-left: -60px;
+            background-color: #0065FC;
+        }
+        .plude500 {
+            display: flex;
+            margin-left: 0px;
+         */
+        }
+    }
+    
     ul {
         list-style: none;
         display: inline-flex;
@@ -850,38 +867,152 @@
     .titres {
         margin-right: -30px;
     }
-    /* @media screen and (max-width:480px) {
+    
+    @media screen and (max-width:480px) {
+        .Hebergement {
+            display: flex;
+            margin-left: -15px;
+        }
+        .Activite {
+            display: flex;
+            align-items: right;
+        }
+        .ReserviaHebergement {
+            display: flex;
+            justify-content: baseline;
+            margin-top: 30px;
+            width: 100%;
+            margin-bottom: 10px;
+            cursor: none;
+        }
         .Hebergement,
         .Activite {
-            display: inline-block;
-            margin-left: 0px;
-            padding-left: 20px;
-            width: 50%;
+            display: flex;
+            margin-bottom: 80px;
+            padding-top: 0px;
+            padding-right: -80px;
+            width: 100%;
         }
-        .Activite {}
+        .logo {
+            display: flex;
+            margin-left: -10px;
+            margin-bottom: 60px;
+            margin-top: -10px;
+        }
+        .inscription {
+            display: flex;
+            margin-top: -30px;
+            margin-left: -55px;
+            margin-bottom: 0px;
+        }
         header a:hover.Activite {
             border-bottom: 1px solid #0065fc;
             border-top: none;
+            width: 120%;
         }
         .Hebergement {
             border-bottom: 1px solid blue;
             border-top: none;
+            width: 100%;
         }
-        .fa-search {
-            display: none;
-            align-items: center;
-            justify-content: center;
-            width: 30px;
-            height: 30px;
-            color: white;
-            background-color: #0065FC;
-            border: 1px solid #0065fc;
-            border-top-right-radius: 10px;
-            border-bottom-right-radius: 10px;
-            padding-right: ;
-            font-size: 12px;
-            font-weight: bold;
+        .titereetparagraphe {
+            display: inline-block;
+            margin-top: 5px;
+            cursor: pointer;
+        }
+        .filtres {
+            display: inline-flex;
+            margin-bottom: 10px;
             margin-left: -12px;
+        }
+        .icones {
+            display: inline-flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-left: -3px;
+            margin-bottom: 190px;
+            width: 100%;
+        }
+        .btn1 {
+            display: inline-flex;
+            margin-left: 30px;
+            flex-direction: row;
+            justify-content: flex-end;
+            width: 125px;
+            height: 5px;
+            border: 0.5px solid #ece6e6;
+            background-color: white;
+            border-radius: 120px;
+            text-align: center;
+            align-items: center;
+            font-size: small;
+            font-weight: bold;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 5px;
+            padding: 15px;
+            box-shadow: 1px 1px 0.5px#F2F2F2;
+            color: black;
+        }
+        .btn2 {
+            display: inline-flex;
+            margin-right: -300px;
+            justify-content: flex-end;
+            flex-direction: row;
+            width: 110px;
+            height: 34px;
+            border: 1px solid #ece6e6;
+            background-color: #ffff;
+            border-radius: 120px;
+            text-align: center;
+            align-items: center;
+            font-size: small;
+            font-weight: bold;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 15px;
+            padding-left: 0px;
+            color: black;
+            margin-left: 5px;
+        }
+        .btn3 {
+            display: inline-flex;
+            margin-left: 3px;
+            justify-content: flex-end;
+            width: 130px;
+            height: 34px;
+            color: black;
+            border: 1px solid #ece6e6;
+            background-color: white;
+            border-radius: 20px;
+            text-align: center;
+            align-items: center;
+            font-size: small;
+            font-weight: bold;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 5px;
+            padding: 15px;
+            font-weight: bold;
+            margin-left: 5px;
+        }
+        .btn4 {
+            display: inline-flex;
+            justify-content: flex-end;
+            width: 166px;
+            height: 34px;
+            color: black;
+            border: 1px solid #ece6e6;
+            background-color: white;
+            border-radius: 20px;
+            text-align: center;
+            font-size: small;
+            font-weight: bold;
+            padding-top: 5px;
+            padding-bottom: 5px;
+            padding-right: 12px;
+            padding-left: 00px;
+            margin-left: 10px;
         }
         .b {
             display: block;
@@ -1076,139 +1207,36 @@
             justify-content: center;
             align-items: left;
         }
-        .footer {
-            display: block;
-            width: auto;
-            margin-left: 0px;
-            margin-right: 0px;
-            flex-direction: column;
-            justify-content: center;
-            align-items: center;
-        }
-        .lescartesbas {
-            display: flex;
-            width: 100%;
-            margin-left: auto;
-            flex-direction: column;
-            justify-content: center;
-            align-items: left;
-            padding-left: auto;
-            padding-right: auto;
-            background-color: red;
-        }
-        .vieuxport {
-            display: block;
-            height: hv;
-            width: 100%;
-            font-size: 10px;
-            border-radius: 10px;
-            background-color: #ffff;
-            border: 1px solid transparent;
-            box-shadow: 2px 1px 0.3px whitesmoke;
-            margin-left: 26px;
-            margin-right: 15px;
-        }
-        .carte15 .fortdepomegue {
-            display: block;
-            height: 363px;
-            width: 205px;
-            font-size: 10px;
-            border-radius: 10px;
-            background-color: #ffff;
-            border: 1px solid transparent;
-            box-shadow: 2px 1px 0.3px whitesmoke;
-            margin-left: 26px;
-            margin-right: 15px;
-        }
-        .ilesdufrioul {
-            display: block;
-            height: 363px;
-            width: 205px;
-            font-size: 10px;
-            border-radius: 10px;
-            background-color: #ffff;
-            border: 1px solid transparent;
-            box-shadow: 2px 1px 0.3px whitesmoke;
-            margin-left: 26px;
-            margin-right: 15px;
-        }
-        .parcnationaldescalenques {
-            display: block;
-            height: 363px;
-            width: 205px;
-            font-size: 10px;
-            border-radius: 10px;
-            background-color: #ffff;
-            border: 1px solid transparent;
-            box-shadow: 2px 1px 0.3px whitesmoke;
-            margin-left: 26px;
-            margin-right: 15px;
-        }
-        .notredamedelagarde {
-            display: block;
-            height: 363px;
-            width: 205px;
-            font-size: 10px;
-            border-radius: 10px;
-            background-color: #ffff;
-            border: 1px solid transparent;
-            box-shadow: 2px 1px 0.3px whitesmoke;
-            margin-left: 26px;
-            margin-right: 15px;
-        }
-        .longchamp {
-            display: block;
-            height: 363px;
-            width: 205px;
-            font-size: 10px;
-            border-radius: 10px;
-            background-color: #ffff;
-            border: 1px solid transparent;
-            box-shadow: 2px 1px 0.3px whitesmoke;
-            margin-left: 26px;
-            margin-right: 15px;
-        }
+    }
+    
+    @media screen and (max-width:480px) {
         .b1 {
-            margin-top: ;
-            margin-right: ;
-            border: 1px solid white;
-            background-color: red;
-            height: hv;
+            display: inline-flex;
+            background-color: #F2F2F2;
+            border: 1px solid #F2F2F2;
+            border-radius: 12px;
             width: 100%;
-            border-radius: 10px;
-            text-align: justify;
-            align-items: flex-start;
-            font-size: 9px;
-            box-shadow: 2px 1px 0.3px whitesmoke;
-            margin-left: ;
-            caption-side: top;
-            z-index: 1;
+            padding: 0px;
+            font-size: 10px;
+            margin: 0px;
         }
-        .carte12,
-        .carte13,
-        .carte14 {
-            display: block;
-            margin-bottom: ;
-            padding: 1px;
-            align-items: center;
-        }
-        .b1 {}
         .Cartehotellesoleildumatin {
+            display: flex;
             margin-top: -10px;
-            margin-right: 25px;
+            margin-right: 0px;
             border: 1px solid white;
             background-color: #ffff;
             height: hv;
             width: 100%;
             border-radius: 10px;
             text-align: cent;
-            align-items: flex-start;
+            /* align-items: flex-start; */
             font-size: 9px;
             box-shadow: 2px 1px 0.3px whitesmoke;
             margin-left: 0px;
             caption-side: top;
         }
-    } */
+    }
     
     .b1 {
         display: inline-flex;
@@ -1227,6 +1255,35 @@
         margin-right: 0%;
         justify-content: space-evenly;
         align-items: center;
+    }
+    
+    @media screen and (max-width:480px) {
+        .b1 {
+            display: inline-flex;
+            background-color: #F2F2F2;
+            border: 1px solid #F2F2F2;
+            border-radius: 12px;
+            width: 100%;
+            padding: 0px;
+            font-size: 10px;
+            margin: 0px;
+        }
+        .Cartehotellesoleildumatin {
+            display: flex;
+            margin-top: -10px;
+            margin-right: 0px;
+            border: 1px solid white;
+            background-color: #ffff;
+            height: hv;
+            width: 100%;
+            border-radius: 10px;
+            text-align: cent;
+            /* align-items: flex-start; */
+            font-size: 9px;
+            box-shadow: 2px 1px 0.3px whitesmoke;
+            margin-left: 0px;
+            caption-side: top;
+        }
     }
     
     .AP {
@@ -1720,6 +1777,209 @@
         box-shadow: 2px 1px 0.3px whitesmoke;
     }
     
+    @media screen and (max-width:480px) {
+        .lescartesbas {
+            display: inline-flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+            margin-bottom: 12px;
+            margin-top: auto;
+            width: 100%;
+            height: hv;
+            border-radius: 10px;
+            font-size: 10px;
+            box-shadow: 2px 1px 0.3px whitesmoke;
+            transition: transform 1ms;
+            margin-left: 0px;
+        }
+        .vieuxport {
+            height: 120px;
+            width: 100%;
+            border: 1px solid #ffff;
+            text-align: justify;
+            border-bottom: #ffff;
+            margin-bottom: 30px;
+            padding-bottom: px;
+            padding-left: 3px;
+            padding-right: 3px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            align-items: center;
+            margin-left: -20px;
+        }
+        .carte15 {
+            display: flex;
+            height: 120px;
+            width: 100%;
+            margin-bottom: 10px;
+            border: 1px solid #ffff;
+            text-align: justify;
+            border-bottom: #ffff;
+            padding-bottom: px;
+            padding-left: 3px;
+            padding-right: 3px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            align-items: center;
+            margin-left: -20px;
+        }
+        .fortdepomegue {
+            height: 120px;
+            width: 100%;
+            border: 1px solid #ffff;
+            text-align: justify;
+            border-bottom: #ffff;
+            margin-bottom: 30px;
+            padding-bottom: px;
+            padding-left: 3px;
+            padding-right: 3px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            align-items: center;
+            margin-left: -20px;
+        }
+        .carte16 {
+            display: flex;
+            height: 120px;
+            width: 100%;
+            margin-bottom: 10px;
+            border: 1px solid #ffff;
+            text-align: justify;
+            border-bottom: #ffff;
+            padding-bottom: px;
+            padding-left: 3px;
+            padding-right: 3px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            align-items: center;
+            margin-left: -20px;
+        }
+        .ilesdufrioul {
+            height: 120px;
+            width: 100%;
+            border: 1px solid #ffff;
+            text-align: justify;
+            border-bottom: #ffff;
+            margin-bottom: 30px;
+            padding-bottom: px;
+            padding-left: 3px;
+            padding-right: 3px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            align-items: center;
+            margin-left: -20px;
+        }
+        .carte17 {
+            display: flex;
+            height: 120px;
+            width: 100%;
+            margin-bottom: 10px;
+            border: 1px solid #ffff;
+            text-align: justify;
+            border-bottom: #ffff;
+            padding-bottom: px;
+            padding-left: 3px;
+            padding-right: 3px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            align-items: center;
+            margin-left: -20px;
+        }
+        .parcnationaldescalenques {
+            height: 120px;
+            width: 100%;
+            border: 1px solid #ffff;
+            text-align: justify;
+            border-bottom: #ffff;
+            margin-bottom: 30px;
+            padding-bottom: px;
+            padding-left: 3px;
+            padding-right: 3px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            align-items: center;
+            margin-left: -20px;
+        }
+        .carte18 {
+            display: flex;
+            height: 120px;
+            width: 100%;
+            margin-bottom: 10px;
+            border: 1px solid #ffff;
+            text-align: justify;
+            border-bottom: #ffff;
+            padding-bottom: px;
+            padding-left: 3px;
+            padding-right: 3px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            align-items: center;
+            margin-left: -20px;
+        }
+        .notredamedelagarde {
+            height: 120px;
+            width: 100%;
+            border: 1px solid #ffff;
+            text-align: justify;
+            border-bottom: #ffff;
+            margin-bottom: 30px;
+            /* padding-bottom:30px; */
+            padding-left: 3px;
+            padding-right: 3px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            align-items: center;
+            margin-left: -20px;
+        }
+        .carte19 {
+            display: flex;
+            height: 120px;
+            width: 100%;
+            margin-bottom: 10px;
+            border: 1px solid #ffff;
+            text-align: justify;
+            border-bottom: #ffff;
+            padding-bottom: px;
+            padding-left: 3px;
+            padding-right: 3px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            align-items: center;
+            margin-left: -20px;
+        }
+        .longchamp {
+            height: 120px;
+            width: 100%;
+            border: 1px solid #ffff;
+            text-align: justify;
+            border-bottom: #ffff;
+            margin-top: px;
+            padding-bottom: 60px;
+            padding-left: 3px;
+            padding-right: 3px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            align-items: center;
+            margin-left: -20px;
+        }
+        .carte20 {
+            display: flex;
+            height: 120px;
+            width: 100%;
+            margin-bottom: 10px;
+            border: 1px solid #ffff;
+            text-align: justify;
+            border-bottom: #ffff;
+            padding-bottom: px;
+            padding-left: 3px;
+            padding-right: 3px;
+            border-top-left-radius: 10px;
+            border-top-right-radius: 10px;
+            align-items: center;
+            margin-left: -20px;
+        }
+    }
+    
     .footer {
         display: grid;
         grid-template-columns: auto auto auto;
@@ -1730,6 +1990,16 @@
         padding-bottom: 30px;
         gap: 30px;
         font-size: 14px;
+    }
+    
+    @media screen and (max-width:480px) {
+        .footer {
+            display: block;
+            height: auto;
+            width: 100%;
+            margin: 0px 0px;
+            padding: 0px 8px;
+        }
     }
     
     footer a {
@@ -1745,12 +2015,30 @@
         padding-left: 20px;
     }
     
+    @media screen and (max-width:480px) {
+        .foot1 {
+            display: block;
+            height: auto;
+            width: 100%;
+            padding: 0px 6px;
+        }
+    }
+    
     .footer2 {
         display: block;
         flex-direction: column;
         align-content: flex-end;
         align-items: stretch;
         justify-content: center;
+    }
+    
+    @media screen and (max-width:480px) {
+        .foot2 {
+            display: block;
+            height: auto;
+            width: 100%;
+            padding-right: 15px;
+        }
     }
     
     .footer3 {
@@ -1760,4 +2048,13 @@
         align-items: stretch;
         justify-content: center;
         padding-right: 20%;
+    }
+    
+    @media screen and (max-width:480px) {}
+    
+    .foot3 {
+        display: block;
+        height: auto;
+        width: 100%;
+        padding: -5px -3px;
     }
