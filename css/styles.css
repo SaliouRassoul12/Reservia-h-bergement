@@ -850,8 +850,7 @@
     .titres {
         margin-right: -30px;
     }
-    
-    @media screen and (max-width:480px) {
+    /* @media screen and (max-width:480px) {
         .Hebergement,
         .Activite {
             display: inline-block;
@@ -1209,7 +1208,7 @@
             margin-left: 0px;
             caption-side: top;
         }
-    }
+    } */
     
     .b1 {
         display: inline-flex;
