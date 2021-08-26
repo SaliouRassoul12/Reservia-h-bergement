@@ -229,7 +229,12 @@
         font-weight: bold;
         font-size: 12px;
     }
-    /* .rechercher { font-weight: bolder; font-size: 12px; } */
+    
+    .rechercher {
+        display: block;
+        font-weight: bold;
+        font-size: 12px;
+    }
     
     .Btn {
         width: 90px;
@@ -244,13 +249,6 @@
         font-weight: bold;
         margin-left: -12px;
     }
-    /* @media and (min-width:1290px) { .Btn { width: 90px; height: 35px; color: white; background-color:
-#0065FC; border: 1px solid #0065fc; border-top-right-radius: 10px; border-bottom-right-radius: 10px; padding-right: 5px; font-size: 12px; font-weight: bold; margin-left: -12px; } } */
-    /* .small { display: flex; align-items: center; justify-content: center;
-vertical-align: middle; width: 30px; height: 30px; color: white; background-color: #0065FC; border: 1px solid #0065fc; border-top-right-radius: 10px; border-bottom-right-radius: 10px; padding-right: 5px; font-size: 12px; font-weight: bold; margin-left:
--12px; } */
-    /* @media and(max-width:480px) { .small { display: flex; align-items: center; justify-content: center; vertical-align: middle; width: 30px; height: 30px; color: white; background-color: #0065FC; border: 1px solid #0065fc; border-top-right-radius:
-10px; border-bottom-right-radius: 10px; padding-right: 5px; font-size: 12px; font-weight: bold; margin-left: -12px; } } */
     
     .icones ul {
         display: inline-block;
@@ -266,10 +264,6 @@ vertical-align: middle; width: 30px; height: 30px; color: white; background-colo
         list-style: none;
         align-items: center;
         justify-content: center;
-        /* border:
-1px solid black; */
-        /* width: 70%; */
-        /* height: 30px; */
         height: 50px;
         line-height: 50px;
         margin-left: 20px;
@@ -989,23 +983,6 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
             padding-left: 00px;
             margin-left: 10px;
         }
-        @media screen and (max-width:480px) {
-            .b {
-                display: block;
-                background-color: white;
-                width: 90%;
-                height: auto;
-                margin-right: 5px;
-                margin-left: 5px;
-                flex-direction: column;
-                justify-content: center;
-                align-items: left;
-                padding: 0px;
-                margin-bottom: 25px;
-                margin-top: 15px;
-                z-index: 2;
-            }
-        }
         .filtericone {
             display: inline-flex;
         }
@@ -1474,7 +1451,9 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
     /*aside{ display:flex; } */
     
     .Marseille {
-        margin-left: 3%;
+        margin-left: 2%;
+        font-size: medium;
+        margin-bottom: -5px;
     }
     
     .lescartesbas {
@@ -1491,6 +1470,7 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
         padding-right: 20px;
         padding-left: 20px;
         margin-left: 20px;
+        background-color: rgb(255, 255, 255);
     }
     
     .lescartesbas {
@@ -1507,13 +1487,12 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
     
     .vieuxport {
         display: block;
-        height: 363px;
+        height: auto;
         width: 205px;
         font-size: 10px;
         border-radius: 10px;
-        background-color: #ffff;
         border: 1px solid transparent;
-        box-shadow: 2px 1px 0.3px whitesmoke;
+        box-shadow: 2px 1px 0.3px white;
         margin-left: 26px;
         margin-right: 15px;
     }
@@ -1532,27 +1511,29 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
     
     .carte15 {
         display: block;
-        height: 325px;
+        height: auto;
         width: 205px;
         background: cover;
         border: 1px solid transparent;
         text-align: center;
-        border-bottom-color: whitesmoke;
+        border-bottom-color: rgb(255, 255, 255);
         border-top-left-radius: 10px;
         border-top-right-radius: 10px;
         margin-left: 0px;
         box-shadow: 2px 1px 0.3px whitesmoke;
+        font-weight: bolder;
     }
     
     .fortdepomegue {
         height: 170px;
-        width: 203px;
+        width: auto;
         background-color: #ffff;
         border: 0.1px solid transparent;
         text-align: justify;
         border-radius: 10px;
         box-shadow: 2px 1px 0.3px whitesmoke;
         margin-left: 20px;
+        font-weight: bolder;
     }
     
     .fortdepomegue:hover {
@@ -1568,7 +1549,7 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
     }
     
     .carte16 {
-        height: 136px;
+        height: auto;
         width: 203px;
         background-color: #ffff;
         border-bottom: #ffff;
@@ -1578,9 +1559,8 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
     }
     
     .ilesdufrioul {
-        height: 120px;
-        width: 203px;
-        background-color: #ffff;
+        height: auto;
+        width: auto;
         border: 1px solid transparent;
         border-radius: 10px;
         font-size: 10px;
@@ -1588,6 +1568,7 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
         box-shadow: 2px 1px 0.3px whitesmoke;
         padding-top: 58px;
         margin-left: 20px;
+        font-weight: bolder;
     }
     
     .ilesdufrioul:hover {
@@ -1604,7 +1585,7 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
     
     .carte17 {
         height: 88px;
-        width: 203px;
+        width: auto;
         border: 1px solid #ffff;
         text-align: justify;
         border-bottom: #ffff;
@@ -1617,7 +1598,7 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
     
     .parcnationaldescalenques {
         display: block;
-        height: 363px;
+        height: auto;
         width: 205px;
         font-size: 10px;
         border-radius: 10px;
@@ -1626,6 +1607,7 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
         box-shadow: 2px 1px 0.3px whitesmoke;
         margin-left: -1px;
         margin-right: 0px;
+        font-weight: bolder;
     }
     
     .parcnationaldescalenques:hover {
@@ -1638,11 +1620,12 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
         padding-top: 12px;
         font-size: larger;
         font-weight: bolder;
+        background-color: transparent;
     }
     
     .carte18 {
         display: block;
-        height: 325px;
+        height: auto;
         width: 205px;
         background: cover;
         border: 1px solid transparent;
@@ -1655,13 +1638,14 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
     }
     
     .notredamedelagarde {
-        height: 120px;
+        height: auto;
         width: 203px;
         background-color: #ffff;
         border: 1px solid transparent;
         font-size: 10px;
         border-radius: 10px;
         box-shadow: 2px 1px 0.3px whitesmoke;
+        font-weight: bolder;
     }
     
     .notredamedelagarde:hover {
@@ -1678,7 +1662,7 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
     
     .carte19 {
         display: flex;
-        height: 88px;
+        height: auto;
         width: 203px;
         border: 1px solid #ffff;
         text-align: justify;
@@ -1690,7 +1674,7 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
     }
     
     .longchamp {
-        height: 170px;
+        height: auto;
         width: 203px;
         background-color: #ffff;
         border: 0.1px solid transparent;
@@ -1699,6 +1683,7 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
         font-size: 10px;
         box-shadow: 2px 1px 0.3px whitesmoke;
         padding-top: 60px;
+        font-weight: bolder;
     }
     
     .longchamp:hover {
@@ -1714,7 +1699,7 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
     }
     
     .carte20 {
-        height: 136px;
+        height: auto;
         width: 203px;
         border-bottom: #ffff;
         border-top-left-radius: 10px;
@@ -1994,27 +1979,6 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
         }
     }
     
-    display: inline-flex;
-    margin-left: auto;
-    font-size: 12px;
-    margin-top: -8px;
-    @media screen and (max-width:480px) {
-        .iconeetparagraphe {
-            background-color: #0065FC;
-            /* .iconeetparagraphe {
-            display: flex;
-            flex-direction: row;
-            flex-wrap: wrap;
-            margin-left: -60px;
-            background-color: #0065FC;
-        }
-        .plude500 {
-            display: flex;
-            margin-left: 0px;
-         */
-        }
-    }
-    
     ul {
         list-style: none;
         display: inline-flex;
@@ -2122,57 +2086,6 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
         font-weight: bold;
         margin-left: -12px;
     }
-    /* @media and (min-width:1290px) {
-    .Btn {
-        width: 90px;
-        height: 35px;
-        color: white;
-        background-color: #0065FC;
-        border: 1px solid #0065fc;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        padding-right: 5px;
-        font-size: 12px;
-        font-weight: bold;
-        margin-left: -12px;
-    }
-} */
-    /* .small {
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    vertical-align: middle;
-    width: 30px;
-    height: 30px;
-    color: white;
-    background-color: #0065FC;
-    border: 1px solid #0065fc;
-    border-top-right-radius: 10px;
-    border-bottom-right-radius: 10px;
-    padding-right: 5px;
-    font-size: 12px;
-    font-weight: bold;
-    margin-left: -12px;
-} */
-    /* @media and(max-width:480px) {
-    .small {
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        vertical-align: middle;
-        width: 30px;
-        height: 30px;
-        color: white;
-        background-color: #0065FC;
-        border: 1px solid #0065fc;
-        border-top-right-radius: 10px;
-        border-bottom-right-radius: 10px;
-        padding-right: 5px;
-        font-size: 12px;
-        font-weight: bold;
-        margin-left: -12px;
-    }
-} */
     
     .icones ul {
         display: inline-block;
@@ -2182,18 +2095,6 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
     flex-direction: row; */
         margin-left: 10px;
     }
-    /* 
-.icones ul{
-    gap: 5px;
-
-}
-
-.icones ul li {
-	display:inline-block;
-	list-style: none;
-	justify-content: flex-start;
-} 
-*/
     
     .icones {
         display: inline-flex;
@@ -2385,31 +2286,11 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
     .marseilleetpopulaires {
         display: inline-block;
     }
-    /* div.marseille{
-	display:flex;
-	background-color:#F2F2F2;
-	border-radius: 12px;
-	width: 55%;
-	height: 450px;
-	justify-content: space-between;
-	flex-wrap: wrap;
-	padding-top: 30px;
-	padding-bottom: 0px;
-	padding-left: 20px;
-	padding-right: 20px;
-	align-items: space-between;
-	margin-left: 10px;
-	border: 1px solid #F2F2F2;
-}  */
     
     .HM {
         margin-top: -20px;
         margin-right: 10px;
         font-size: 14px;
-        /*position: relative;
-	top:52px;
-	left:66px;
-	font-size: medium;*/
     }
     
     .CarteAubergelaCannebiere {
@@ -2433,9 +2314,6 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
     .CarteAubergelaCannebiere:hover {
         transform: scale(1.2);
     }
-    /* #far {
-	border: 1px solid transparent;
-} */
     
     .carte6 {
         background-color: #ffff;
@@ -3485,9 +3363,10 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
         width: 205px;
         font-size: 10px;
         border-radius: 10px;
-        background-color: #ffff;
+        background-size: cover;
+        background-color: whitesmoke;
         border: 1px solid transparent;
-        box-shadow: 2px 1px 0.3px whitesmoke;
+        box-shadow: 7px -5px -3px #ffff;
         margin-left: 26px;
         margin-right: 15px;
     }
@@ -3520,12 +3399,13 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
     .fortdepomegue {
         height: 170px;
         width: 203px;
-        background-color: #ffff;
+        background-color: whitesmoke;
         border: 0.1px solid transparent;
         text-align: justify;
         border-radius: 10px;
-        box-shadow: 2px 1px 0.3px whitesmoke;
+        box-shadow: 7px -5px -3px #ffff;
         margin-left: 20px;
+        background-size: cover;
     }
     
     .fortdepomegue:hover {
@@ -3552,14 +3432,15 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
     .ilesdufrioul {
         height: 120px;
         width: 203px;
-        background-color: #ffff;
+        background-color: whitesmoke;
         border: 1px solid transparent;
         border-radius: 10px;
         font-size: 10px;
         padding-bottom: 5px;
-        box-shadow: 2px 1px 0.3px whitesmoke;
+        box-shadow: 7px -5px -3px #ffff;
         padding-top: 58px;
         margin-left: 20px;
+        background-size: cover;
     }
     
     .ilesdufrioul:hover {
@@ -3592,11 +3473,12 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
         width: 205px;
         font-size: 10px;
         border-radius: 10px;
-        background-color: #ffff;
+        background-color: whitesmoke;
         border: 1px solid transparent;
-        box-shadow: 2px 1px 0.3px whitesmoke;
+        box-shadow: 7px -5px -3px #ffff;
         margin-left: -1px;
         margin-right: 0px;
+        background-size: cover;
     }
     
     .parcnationaldescalenques:hover {
@@ -3627,12 +3509,13 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
     .notredamedelagarde {
         height: 120px;
         width: 203px;
-        background-color: #ffff;
+        background-color: whitesmoke;
         border: 1px solid transparent;
         font-size: 10px;
         border-radius: 10px;
-        box-shadow: 2px 1px 0.3px whitesmoke;
+        box-shadow: 7px -5px -3px #ffff;
         z-index: 3;
+        background-size: cover;
     }
     
     .notredamedelagarde:hover {
@@ -3662,13 +3545,14 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
     .longchamp {
         height: 170px;
         width: 203px;
-        background-color: #ffff;
+        background-color: whitesmoke;
         border: 0.1px solid transparent;
         text-align: justify;
         border-radius: 10px;
         font-size: 10px;
-        box-shadow: 2px 1px 0.3px whitesmoke;
+        box-shadow: 7px -5px -3px #ffff;
         padding-top: 60px;
+        background-size: cover;
     }
     
     .longchamp:hover {
@@ -3690,6 +3574,112 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
         border-top-right-radius: 10px;
         font-size: small;
         box-shadow: 2px 1px 0.3px whitesmoke;
+    }
+    
+    .footer {
+        display: grid;
+        grid-template-columns: auto auto auto;
+        border: 1px solid #F2F2F2;
+        background-color: #F2F2F2;
+        width: 100%;
+        height: auto;
+        padding-bottom: 30px;
+        gap: 30px;
+        font-size: small;
+    }
+    
+    footer a {
+        color: black;
+    }
+    
+    .footer {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        padding-left: 3px;
+        align-items: flex-start;
+        list-style: none;
+        justify-content: space-between;
+    }
+    
+    .footer1 {
+        display: block;
+        flex-direction: row;
+        align-content: center;
+        align-items: flex-start;
+        justify-content: left;
+        list-style: none;
+        padding-left: 18px;
+    }
+    
+    .footer2 {
+        display: block;
+        align-items: flex-start;
+        justify-content: left;
+    }
+    
+    .footer3 {
+        display: block;
+        align-content: flex-end;
+        align-items: stretch;
+        justify-content: center;
+        padding-right: 20%;
+    }
+    
+    footer ul {
+        display: flex;
+        flex-direction: column;
+        background-color: red;
+    }
+    
+    @media screen and (max-width:375px) {
+        body {
+            display: inline-block;
+            flex-direction: column;
+            flex-wrap: wrap;
+        }
+    }
+    
+    @media screen and (max-width:480px) {
+        .iconeetparagraphe {
+            background-color: #0065FC;
+        }
+    }
+    
+    @media screen and(min-width:480px) {
+        .rechercher,
+        .btn {
+            display: flex;
+            width: 100%;
+            height: 35px;
+            color: white;
+            background-color: #0065FC;
+            border: 1px solid #0065fc;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            padding-right: 5px;
+            font-size: 12px;
+            font-weight: bold;
+            margin-left: -12px;
+        }
+    }
+    
+    @media screen and(max-width:480px) {
+        .rechercher,
+        .small {
+            isplay: block;
+            width: 30px;
+            height: 35px;
+            align-items: center;
+            justify-content: center;
+            color: white;
+            background-color: #0065FC;
+            border: 1px solid #0065fc;
+            border-top-right-radius: 10px;
+            border-bottom-right-radius: 10px;
+            border-bottom-left-radius: 10px;
+            border-top-left-radius: 10px;
+        }
     }
     
     @media screen and (max-width:480px) {
@@ -3897,74 +3887,18 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
         }
     }
     
-    .footer {
-        display: grid;
-        grid-template-columns: auto auto auto;
-        border: 1px solid #F2F2F2;
-        background-color: #F2F2F2;
-        width: 100%;
-        height: vh;
-        padding-bottom: 30px;
-        gap: 30px;
-    }
-    
-    footer a {
-        color: black;
-    }
-    
-    .footer {
-        display: flex;
-        flex-direction: row;
-        justify-content: center;
-        padding-left: 3px;
-        padding-top: ;
-        flex-shrink: ;
-        align-items: flex-start;
-        list-style: none;
-        justify-content: space-between;
-    }
-    
-    .footer1 {
-        display: block;
-        flex-direction: row;
-        align-content: center;
-        align-items: flex-start;
-        justify-content: left;
-        list-style: none;
-        padding: auto;
-    }
-    /* .foot1 {
-    display: inline-flex;
-} */
-    
-    .footer2 {
-        display: block;
-        align-content: ;
-        align-items: flex-start;
-        justify-content: left;
-        te
-    }
-    
-    .footer3 {
-        display: block;
-        align-content: flex-end;
-        align-items: stretch;
-        justify-content: center;
-        padding-right: 20%;
-    }
-    
-    @media screen and(max-width:480px) {
-        /* .footer {
+    @media screen and (max-width:480px) {
+        .footer {
             grid-template-columns: auto auto auto;
             border: 1px solid #F2F2F2;
             background-color: #F2F2F2;
             width: 100%;
-            height: vh;
+            height: 370px;
             padding-bottom: 30px;
             gap: 30px;
-        } */
+        }
         .footer {
-            display: block;
+            display: flex;
             flex-direction: column;
             justify-content: center;
             padding-left: 3px;
@@ -3989,12 +3923,21 @@ margin-left: 10px; border: 1px solid #F2F2F2; } */
             justify-content: center;
         }
         .footer3 {
-            isplay: flex;
+            display: flex;
             width: 100%;
             flex-direction: column;
             align-content: flex-start;
             align-items: flex-start;
-            justify-content: cente
+            justify-content: cente;
             /* padding-right: 20%; */
+            padding-bottom: 25px;
+        }
+    }
+    
+    @media screen and (max-width:600px) {
+        .locationetBtn {
+            width: 100%;
+            display: block;
+            background-color: red;
         }
     }
