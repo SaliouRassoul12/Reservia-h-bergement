@@ -5,17 +5,19 @@
     src: url(../fonts/static/Raleway-Regular.ttf) format("truetype");
 }
 
-
 /* taille de la page web*/
 
-html,
-body {
-    font-family: Raleway, sans-serif;
-    text-decoration: none;
-}
+  html, body {
+   /* display: flex; */
+   /* flex-direction: column;*/
+   /*font-family: Raleway, sans-serif;*/
+   /* text-decoration: none;*/
+    /* max-width: 900px; */
+    /* margin-right: 3%; */
+} 
 
 .logo {
-    margin-left: 1.5%;
+    margin-left: 3.5%;
 }
 
 a:link {
@@ -34,15 +36,23 @@ header {
 * {
     box-sizing: border-box;
 }
+.titereetparagraphe{
+    margin-left: 3%;
+}
 
 .TrouvezvotreHebergement {
     margin-left: 2%;
+    margin-bottom: 0px;
     font-size: 16px;
+    font-weight: bolder;
+    margin-left: 2%;
 }
 
 .centreville {
-    font-size: 12px;
+    font-size: 11px;
     margin-left: 2%;
+    margin-top: 5px;
+    margin-left: 2%; 
 }
 
 .locationetBtn {
@@ -50,18 +60,8 @@ header {
     flex-direction: row;
     margin-left: 1.9%;
     font-size: 12px;
+    margin-left:4%; 
 }
-
-.iconees {
-    display: inline-block;
-    margin: auto;
-}
-
-
-/* .fa-star{ border: 0px solid transparent; } */
-
-
-/* .iconeetparagraphe{ display:inline-block; background-color: ; margin-left: 25px; margin-top:0px; } */
 
 .infoI {
     display: flex;
@@ -69,6 +69,7 @@ header {
     flex-wrap: nowrap;
     margin-top: 10px;
     margin-bottom: 0px;
+    margin-left: 3%;
 }
 
 .plude500 {
@@ -86,7 +87,7 @@ header {
     flex-wrap: nowrap;
     background-color: #FFFFFF;
     align-items: flex-start;
-    /* margin: 10px 10px 10px 10px; */
+    margin-left: 2%;
 }
 
 .lescartes {
@@ -99,9 +100,11 @@ header {
     margin: 0px 0px 0px 0px;
     border: 1px solid #f2f2f2;
     font-size: 9px;
+    margin-left: 2%;
 }
 
 .Cartehotel {
+    box-shadow: 0 0 20px #0000002e;
     border: 3px solid white;
     border-radius: 10px;
     margin: 10px 10px 10px 10px;
@@ -109,6 +112,7 @@ header {
     background-color: white;
     width: fit-content;
     height: fit-content;
+    margin-left: 2%;
 }
 
 .Cartehotel:hover {
@@ -117,7 +121,6 @@ header {
 
 .carte {
     background-color: #ffff;
-    /* border: 1px solid transparent; */
     text-align: start;
     width: 165px;
     height: 85px;
@@ -125,12 +128,13 @@ header {
     border-top-right-radius: 10px;
     margin-left: 1px;
     margin-bottom: 0px;
+
 }
 
 .b {
     background-color: #f2f2f2;
     border-radius: 12px;
-    width: min-content;
+    width: 640px;
     height: min-content;
     justify-content: space-around;
     flex-wrap: wrap;
@@ -145,10 +149,7 @@ header {
     margin-bottom: 20px;
     border: 1px solid #f2f2f2;
     font-size: 9px;
-}
-
-.titres {
-    margin-right: -30px;
+    margin-left: 2%;
 }
 
 .b1 {
@@ -163,67 +164,18 @@ header {
     padding-left: 0px;
     padding-right: 0px;
     font-size: 10px;
-    margin-left: 10px;
+    /* margin-left:20px; */
     margin-top: 10px;
-    margin-right: 10px;
+    /* margin-right: 10px; */
     margin-bottom: 20px;
     justify-content: space-evenly;
     align-items: center;
-}
-
-.ReserviaHebergement {
-    display: flex;
-    flex-direction: row;
-    position: absolute;
-    top: 12px;
-    right: 12px;
-    justify-content: space-between;
-    padding-top: 8px;
-    margin-right: -10px;
-    cursor: pointer;
-    font-size: 12px;
-}
-
-.Hebergement {
-    justify-content: space-evenly;
-    position: relative;
-    top: auto;
-    right: 12px;
-    border-top: 1px solid blue;
-    color: #0065fc;
-    padding: 20px;
-}
-
-.ReserviaHebergement a:hover {
-    cursor: pointer;
-}
-
-.inscription {
-    justify-content: space-evenly;
-    top: auto;
-    right: 0px;
-    padding: 20px;
-    color: #0065fc;
-    /*border-top:
-1 px solid transparent;*/
-    /*color:#0065fc;*/
-}
-
-.locationI {
-    display: flex;
-    width: 35px;
-    height: 35px;
-    background-color: #f2f2f2;
-    border-bottom-left-radius: 8px;
-    border-top-left-radius: 8px;
-    align-items: center;
-    justify-content: center;
-    margin-left: px;
+    margin-left: 2%;
 }
 
 .Btns {
     border: 1px solid #f2f2f2;
-    width: 157px;
+    width: 160px;
     height: 35px;
     font-weight: bold;
     font-size: 12px;
@@ -247,6 +199,7 @@ header {
     font-size: 12px;
     font-weight: bold;
     margin-left: -12px;
+    visibility: visible;
 }
 
 .filtres {
@@ -260,6 +213,7 @@ header {
     flex-direction: row;
     flex-wrap: wrap;
     margin: 0px;
+    margin-left: 3%;
     margin-top: 10px;
     padding: 0px;
 }
@@ -408,6 +362,10 @@ header {
     transform: scale(1.2);
 }
 
+i.fa-search{
+    display: none;
+}
+
 .fa-info {
     display: inline-block;
     border: 1px solid #F2F2F2;
@@ -415,12 +373,12 @@ header {
     color: #0065fc;
     padding-right: 0px;
     padding-left: 7px;
-    padding-top: 4px;
+    padding-top: 3px;
     padding-bottom: 0px;
     width: 18px;
     height: 18px;
     border-radius: 50%;
-    margin-left: 2%;
+    margin-left: 5px;
     margin-top: 7px;
     background-color: #ffff;
     font-size: 9px;
@@ -430,47 +388,11 @@ header {
 .HM {
     margin-top: 20px;
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: 33px;
     margin-bottom: -10px;
     width: fit-content;
-    font-size: 14px;
+    font-size: 16px;
     font-weight: bolder;
-}
-
-.CarteAubergelaCannebiere {
-    background-color: white;
-    border: 0.1px solid white;
-    padding: 1px;
-    padding-left: 0px;
-    margin-top: auto;
-    margin-right: 25px;
-    margin-left: -195px;
-    margin-bottom: 12px;
-    width: 165px;
-    height: 132px;
-    border-radius: 10px;
-    font-size: 10px;
-    box-shadow: 2px 1px 0.3px whitesmoke;
-    transition: transform 1ms;
-}
-
-.CarteAubergelaCannebiere:hover {
-    transform: scale(1.2);
-}
-
-
-/* #far { border: 1px solid transparent; } */
-
-.carte6 {
-    background-color: #ffff;
-    border: 1px solid transparent;
-    font-size: 10px;
-    text-align: start;
-    width: 165px;
-    height: 70px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-left: 1px;
 }
 
 .titreHotel {
@@ -479,10 +401,10 @@ header {
     margin-left: 7px;
     margin-bottom: 0px;
     margin-top: 0px;
-    /* position: relative; */
 }
 
 .NI {
+    font-size: 11px;
     margin-left: 7px;
     margin-top: 3px;
     margin-bottom: 3px;
@@ -496,311 +418,26 @@ header {
     margin-bottom: 5px;
 }
 
-.grey {
-    color: #deebff;
-}
-
-.Cartehotelduport {
-    background-color: white;
-    border: 0.1px solid white;
-    padding: 1px;
-    padding-left: 0px;
-    margin-right: 10px;
-    margin-left: -10px;
-    margin-bottom: 12px;
-    margin-top: auto;
-    width: 165px;
-    height: 132px;
-    border-radius: 10px;
-    font-size: 10px;
-    box-shadow: 2px 1px 0.3px whitesmoke;
-    transition: transform 1ms;
-}
-
-.Cartehotelduport:hover {
-    transform: scale(1.2);
-}
-
-.carte7 {
-    background-color: #ffff;
-    border: 1px solid transparent;
-    font-size: 10px;
-    text-align: start;
-    width: 165px;
-    height: 70px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-left: 1px;
-}
-
-.HP {
-    font-weight: bolder;
-    margin-left: 10px;
-    position: relative;
-    top: -12px;
-}
-
-.NI2 {
-    display: block;
-    margin-left: 10px;
-    position: relative;
-    top: -20px;
-}
-
-.Istars2 {
-    background-color: #ffff;
-    border: 0px solid transparent;
-    color: #0065fc;
-    margin-left: 10px;
-    position: relative;
-    top: -23px;
-}
-
-.CartehotellesMouettes {
-    background-color: white;
-    border: 0.1px solid transparent;
-    padding: 1px;
-    padding-left: 0px;
-    text-align: start;
-    margin-bottom: 12px;
-    margin-top: auto;
-    width: 165px;
-    height: 132px;
-    border-radius: 10px;
-    font-size: 10px;
-    box-shadow: 2px 1px 0.3px whitesmoke;
-    transition: transform 1ms;
-}
-
-.CartehotellesMouettes:hover {
-    transform: scale(1.2);
-}
-
-.carte08 {
-    background-color: #ffff;
-    border: 1px solid transparent;
-    font-size: 10px;
-    width: 165px;
-    height: 70px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-left: 1px;
-}
-
-.THM {
-    font-weight: bolder;
-    margin-left: 10px;
-    position: relative;
-    top: -12px;
-}
-
-.NI3 {
-    margin-left: 10px;
-    position: relative;
-    top: -20px;
-}
-
-.Istars3 {
-    /* border: 0px solid none; */
-    color: #0065fc;
-    margin-left: 10px;
-    position: relative;
-    top: -23px;
-}
-
-.grey {
-    color: #deebff;
-}
-
-.Cartehoteldelamer {
-    background-color: white;
-    border: 0.1px solid white;
-    padding: 1px;
-    padding-left: 0px;
-    text-align: start;
-    margin-left: -5px;
-    margin-top: 25px;
-    width: 165px;
-    height: 132px;
-    border-radius: 10px;
-    font-size: 10px;
-    box-shadow: 2px 1px 0.3px whitesmoke;
-}
-
-.Cartehoteldelamer:hover {
-    transform: scale(1.2);
-    transition: transform 1ms;
-}
-
-.carte09 {
-    background-color: #ffff;
-    border: 1px solid transparent;
-    font-size: 10px;
-    text-align: start;
-    width: 165px;
-    height: 70px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-left: 1px;
-}
-
-.titres4 {
-    font-weight: bolder;
-    margin-left: 10px;
-    position: relative;
-    top: -12px;
-}
-
-.NI4 {
-    margin-left: 10px;
-    position: relative;
-    top: -20px;
-}
-
-.Istars4 {
-    background-color: #ffff;
-    border: 0px solid none;
-    color: #0065fc;
-    margin-left: 10px;
-    position: relative;
-    top: -23px;
-}
-
-.grey {
-    color: rgb(226, 225, 225);
-}
-
-.CarteAubergelePanier {
-    background-color: white;
-    border: 0.1px solid white;
-    padding: 1px;
-    padding-left: 0px;
-    text-align: start;
-    margin-top: 25px;
-    margin-left: 0px;
-    width: 165px;
-    height: 132px;
-    border-radius: 10px;
-    font-size: 10px;
-    box-shadow: 2px 1px 0.3px whitesmoke;
-    transition: transform 1ms;
-}
-
-.CarteAubergelePanier:hover {
-    transform: scale(1.2);
-}
-
-.carte10 {
-    background-color: #ffff;
-    border: 1px solid transparent;
-    font-size: 10px;
-    text-align: start;
-    width: 165px;
-    height: 70px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-left: 1px;
-}
-
-.titres5 {
-    font-weight: bolder;
-    margin-left: 10px;
-    position: relative;
-    top: -12px;
-}
-
-.NI5 {
-    margin-left: 10px;
-    position: relative;
-    top: -20px;
-}
-
-.Istars5 {
-    background-color: #ffff;
-    color: #0065fc;
-    margin-left: 10px;
-    position: relative;
-    top: -23px;
-}
-
-.CarteHotelchezAmania {
-    background-color: white;
-    border: 0.1px solid white;
-    padding: 1px;
-    padding-left: 0px;
-    margin-top: 25px;
-    text-align: start;
-    width: 165px;
-    height: 132px;
-    border-radius: 10px;
-    font-size: 10px;
-    box-shadow: 2px 1px 0.3px whitesmoke;
-    transition: transform 1ms;
-}
-
-.CarteHotelchezAmania:hover {
-    transform: scale(1.2);
-}
-
-.carte11 {
-    background-color: #ffff;
-    border: 1px solid transparent;
-    font-size: 10px;
-    text-align: start;
-    width: 165px;
-    height: 70px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-left: 1px;
-}
-
-.HA {
-    font-weight: bolder;
-    margin-left: 10px;
-    position: relative;
-    top: -12px;
-}
-
-.NI6 {
-    margin-left: 10px;
-    position: relative;
-    top: -20px;
-}
-
-.Istars6 {
-    background-color: #ffff;
-    color: #0065fc;
-    border: 0px solid none;
-    margin-left: 10px;
-    position: relative;
-    top: -23px;
-}
-
 .AP {
     font-weight: bolder;
     font-size: small;
     margin-top: 12px;
-    margin-left: 20px;
+    margin-left: 33px;
     margin-bottom: 20px;
 }
 
 .fa-chart-line {
     position: relative;
-    top: -25px;
-    margin-right: -200px;
-}
-
-.titres {
-    display: inline-flex;
-    font-size: 14px;
-    margin-left: -100px;
-    justify-content: space-evenly;
+    top: -10px;
+    margin-right: -196px;
+    font-size: 16px;
+    font-weight: bolder;
 }
 
 .HMHori {
     margin-top: 20px;
     margin-right: 20px;
-    margin-left: 20px;
+    margin-left: -70px;
     margin-bottom: -10px;
     width: fit-content;
     font-size: 14px;
@@ -808,7 +445,7 @@ header {
 }
 
 .CartehotelHori {
-    box-shadow: 2px 1px 0.3px whitesmoke;
+    box-shadow: 0 0 20px #0000002e;
     display: flex;
     align-items: flex-start;
     height: 80px;
@@ -831,6 +468,7 @@ header {
 }
 
 .carteHori {
+    height: 100%;
     background-color: #ffff;
     border-bottom-left-radius: 10px;
     border-top-left-radius: 10px;
@@ -842,7 +480,6 @@ header {
     caption-side: top;
     margin-left: 10px;
     margin-top: -2px;
-    /*position: relative; top:-9px; right:-10px;;*/
 }
 
 .NIHori {
@@ -852,7 +489,6 @@ header {
     caption-side: top;
     margin-left: 10px;
     margin-top: 5px;
-    /*position: relative; top:-6px; right:*/
 }
 
 .IstarsHori {
@@ -863,177 +499,18 @@ header {
     margin-bottom: 5px;
 }
 
-.NI7 {
-    display: block;
-    align-items: flex-start;
-    justify-content: flex-start;
-    caption-side: top;
-    margin-left: 10px;
-    margin-top: -3px;
-    /*position: relative; top:-6px; right:*/
-}
-
-.Istars7 {
-    display: flex;
-    color: #0065fc;
-    justify-content: flex-start;
-    caption-side: top;
-    margin-left: 10px;
-    margin-top: 20px;
-    /* position: relative; top:12px; right:*/
-}
-
-.carte12 {
-    background-color: #ffff;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
-.CarteAucouereauchambreHotes {
-    margin-top: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border: 1px solid white;
-    background-color: #ffff;
-    height: 80px;
-    width: 210px;
-    border-radius: 10px;
-    font-size: 9px;
-    box-shadow: 2px 1px 0.3px whitesmoke;
-    margin-bottom: 20px;
-    caption-side: top;
-}
-
-.CarteAucouereauchambreHotes:hover {
-    transition: transform 1ms;
-    transform: scale(1.2);
-}
-
-.CarteAucouereauchambreHotes {
-    display: flex;
-    margin-top: 20px;
-    padding: 3px;
-    align-items: flex-start;
-}
-
-.ACDCH {
-    align-items: flex-start;
-    justify-content: flex-start;
-    caption-side: top;
-    margin-left: 10px;
-    margin-top: -0px;
-    /*position: relative; top:-9px; right:-10px;;*/
-}
-
-.Istars8 {
-    display: flex;
-    color: #0065fc;
-    justify-content: flex-start;
-    caption-side: top;
-    margin-left: 10px;
-    margin-top: 20px;
-    /* position: relative; top:12px; right:*/
-}
-
-.grey {
-    color: rgb(226, 225, 225);
-}
-
-.NI8 {
-    display: block;
-    align-items: flex-start;
-    justify-content: flex-start;
-    caption-side: top;
-    margin-left: 10px;
-    margin-top: 5px;
-    /*position: relative; top:-6px; right:*/
-}
-
-.carte13 {
-    background-color: #ffff;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
-.CarteHotelToutbleuetBlanc {
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-top: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 20px;
-    border: 1px solid white;
-    background-color: #ffff;
-    height: 80px;
-    width: 210px;
-    border-radius: 10px;
-    box-shadow: 2px 1px 0.3px whitesmoke;
-    padding-bottom: 0px;
-    font-size: 9px;
-    caption-side: top;
-}
-
-.CarteHotelToutbleuetBlanc:hover {
-    transition: transform 1ms;
-    transform: scale(1.2);
-}
-
-.CarteHotelToutbleuetBlanc {
-    display: flex;
-    margin-top: 20px;
-    padding: 3px;
-    align-items: flex-end;
-}
-
-.titres9 {
-    align-items: flex-start;
-    justify-content: flex-start;
-    caption-side: top;
-    margin-left: 10px;
-    margin-bottom: -3px;
-    /*position: relative; top:-9px; right:-10px;;*/
-}
-
-.NI9 {
-    display: block;
-    align-items: flex-start;
-    justify-content: flex-start;
-    caption-side: top;
-    margin-left: 12px;
-    margin-bottom: 3px;
-    /*position: relative; top:-6px; right:*/
-}
-
-.Istars9 {
-    display: flex;
-    color: #0065fc;
-    justify-content: flex-start;
-    caption-side: top;
-    margin-left: 12px;
-    margin-top: 25px;
-    padding-bottom: 5px;
-    /* position: relative; top:12px; right:*/
-}
-
-.grey {
-    color: rgb(226, 225, 225);
-}
-
-.carte14 {
-    background-color: #ffff;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
 .Marseille {
     width: fit-content;
-    margin-left: 5px;
+    margin-left:41px;
     font-size: medium;
-    margin-bottom: 5px;
+    margin-bottom: 10px;
+    font-weight: bolder;
 }
 
 .lescartesbas {
     display: inline-flex;
+    gap: 3px;
+    /* justify-content:space-between; */
     width: fit-content;
     height: fit-content;
     flex-direction: row;
@@ -1041,8 +518,8 @@ header {
     font-size: 9px;
     background-color: white;
     padding: 0px;
-    margin: 0px;
-    margin-left: 10px;
+    margin-left: 4% ;
+
 }
 
 .activiteaMarseille {
@@ -1051,101 +528,62 @@ header {
     margin-bottom: 40px;
 }
 
-.vieuxport {
+.activitePortrait {
+    box-shadow: 0 0 20px #0000002e;
     display: block;
-    height: auto;
-    width: 205px;
+    height: 360px;
+    width: 203px;
     font-size: 10px;
     border-radius: 10px;
     border: 1px solid transparent;
-    box-shadow: 2px 1px 0.3px white;
     padding: 0px;
-    margin: 0px;
+    margin:0px;
+    margin-bottom: 5px;
 }
 
-.vieuxport:hover {
+.activitePortrait:hover {
     transition: transform 1ms;
     transform: scale(1.2);
 }
 
-.parcnationaldescalenques {
+.activitePortraitCap {
+    padding-left: 12px;
+    padding-top: 9px;
+    font-weight: bolder;
+    font-size: larger;
+    background-color: white;
+}
+
+.activiteLandscape {
+    box-shadow: 0 0 20px #0000002e;
     display: block;
-    height: 363px;
-    width: 205px;
-    font-size: 10px;
+    height: 170px;
+    width: auto;
+    background-color: white;
+    border: 0.1px solid transparent;
+    text-align: justify;
     border-radius: 10px;
-    background-color: whitesmoke;
-    border: 1px solid transparent;
-    box-shadow: 7px -5px -3px #ffff;
-    margin-left: -1px;
-    margin-right: 0px;
+    font-size: 10px;
+    /* box-shadow: 7px -5px -3px #ffff; */
+    padding-top: 0px;
     background-size: cover;
+    margin: 0px;
+    margin-left: 20px;
+    margin-right: 20px;
+    margin-bottom: 20px;
 }
 
-.parcnationaldescalenques:hover {
+.activiteLandscape:hover {
     transition: transform 1ms;
     transform: scale(1.2);
 }
 
-.Viewport {
+.activiteLandscapeCap {
     padding-left: 12px;
-    padding-top: 12px;
+    padding-top: 7px;
+    font-weight: bolder;
     font-size: larger;
-    font-weight: bolder;
-}
-
-.carte15 {
-    display: block;
-    height: auto;
-    width: 205px;
-    background: cover;
-    border: 1px solid transparent;
-    text-align: center;
-    border-bottom-color: rgb(255, 255, 255);
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-left: 0px;
-    box-shadow: 2px 1px 0.3px whitesmoke;
-    font-weight: bolder;
-}
-
-.Calenques {
-    padding-left: 12px;
-    padding-top: 12px;
-    font-size: larger;
-    font-weight: bolder;
     background-color: transparent;
-}
-
-.carte18 {
-    display: block;
-    height: auto;
-    width: 205px;
-    background: cover;
-    border: 1px solid transparent;
-    text-align: center;
-    border-bottom-color: whitesmoke;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-left: 0px;
-    box-shadow: 2px 1px 0.3px whitesmoke;
-}
-
-.footer2 {
-    display: block;
-    flex-direction: column;
-    align-content: flex-end;
-    align-items: stretch;
-    justify-content: center;
-}
-
-.footer3 {
-    display: block;
-    flex-direction: column;
-    align-content: flex-end;
-    align-items: stretch;
-    justify-content: center;
-    padding-right: 20%;
 }
 
 ul {
@@ -1159,14 +597,17 @@ ul {
 .ReserviaHebergement {
     display: flex;
     flex-direction: row;
-    position: absolute;
     top: 12px;
     right: 12px;
     justify-content: space-between;
     padding-top: 8px;
-    margin-right: -10px;
+    margin-right: 40px;
     cursor: pointer;
-    font-size: 12px;
+    font-size: 11px;
+}
+
+.ReserviaHebergement a:hover {
+    cursor: pointer;
 }
 
 .Hebergement {
@@ -1174,9 +615,9 @@ ul {
     position: relative;
     top: auto;
     right: 12px;
-    border-top: 1px solid blue;
     color: #0065fc;
     padding: 20px;
+    font-weight: bolder;
 }
 
 .Activite {
@@ -1185,17 +626,14 @@ ul {
     top: auto;
     right: 0px;
     padding: 20px;
+    font-weight: bolder;
 }
 
-.ReserviaHebergement a:hover {
-    cursor: pointer;
-}
-
-.Activite a:hover {
+a:hover.Activite{
     border-top: 1px solid #0065fc;
 }
 
-a:visited .Activite {
+a:visited .Activite{
     color: grey;
 }
 
@@ -1205,8 +643,7 @@ a:visited .Activite {
     right: 0px;
     padding: 20px;
     color: #0065fc;
-    /*border-top: 1 px solid transparent;*/
-    /*color:#0065fc;*/
+    font-weight: bolder;
 }
 
 .locationI {
@@ -1218,560 +655,13 @@ a:visited .Activite {
     border-top-left-radius: 8px;
     align-items: center;
     justify-content: center;
-    margin-left: px;
 }
 
-
-/* .rechercher {
-        font-weight: bolder;
-        font-size: 12px;
-    } */
-
-
-/*couleur du fond de l icone*/
-
-.marseilleetpopulaires {
-    display: inline-block;
-}
-
-.CarteAubergelaCannebiere {
-    border: 3px solid white;
-    border-radius: 20px;
-    padding: 5px 5px 10px 5px;
-    background-color: white;
-    max-width: 236px;
-    margin-bottom: 28px;
-}
-
-.CarteAubergelaCannebiere:hover {
-    transform: scale(1.2);
-}
-
-.carte6 {
-    background-color: #ffff;
-    border: 1px solid transparent;
-    font-size: 10px;
-    text-align: start;
-    width: 165px;
-    height: 70px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-left: 1px;
-}
-
-.titres1 {
-    font-weight: bolder;
-    margin-left: 10px;
-    position: relative;
-    top: -12px;
-}
-
-.NI1 {
-    margin-left: 10px;
-    position: relative;
-    top: -20px;
-}
-
-.Istars1 {
-    background-color: #ffff;
-    color: #0065fc;
-    margin-left: 10px;
-    position: relative;
-    top: -23px;
-}
-
-.grey {
-    color: #deebff;
-}
-
-.carte7 {
-    background-color: #ffff;
-    border: 1px solid transparent;
-    font-size: 10px;
-    text-align: start;
-    width: 165px;
-    height: 70px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-left: 1px;
-}
-
-.HP {
-    font-weight: bolder;
-    margin-left: 10px;
-    position: relative;
-    top: -12px;
-}
-
-.NI2 {
-    display: block;
-    margin-left: 10px;
-    position: relative;
-    top: -20px;
-}
-
-.Istars2 {
-    background-color: #ffff;
-    border: 0px solid transparent;
-    color: #0065fc;
-    margin-left: 10px;
-    position: relative;
-    top: -23px;
-}
-
-.CartehotellesMouettes {
-    background-color: white;
-    border: 0.1px solid transparent;
-    padding: 1px;
-    padding-left: 0px;
-    text-align: start;
-    margin-bottom: 12px;
-    margin-top: auto;
-    width: 165px;
-    height: 132px;
-    border-radius: 10px;
-    font-size: 10px;
-    box-shadow: 2px 1px 0.3px whitesmoke;
-    transition: transform 1ms;
-}
-
-.CartehotellesMouettes:hover {
-    transform: scale(1.2);
-}
-
-.carte08 {
-    background-color: #ffff;
-    border: 1px solid transparent;
-    font-size: 10px;
-    width: 165px;
-    height: 70px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-left: 1px;
-}
-
-.THM {
-    font-weight: bolder;
-    margin-left: 10px;
-    position: relative;
-    top: -12px;
-}
-
-.NI3 {
-    margin-left: 10px;
-    position: relative;
-    top: -20px;
-}
-
-.Istars3 {
-    /* border: 0px solid none; */
-    color: #0065fc;
-    margin-left: 10px;
-    position: relative;
-    top: -23px;
-}
-
-.grey {
-    color: #deebff;
-}
-
-.Cartehoteldelamer {
-    background-color: white;
-    border: 0.1px solid white;
-    padding: 1px;
-    padding-left: 0px;
-    text-align: start;
-    margin-left: -5px;
-    margin-top: 25px;
-    width: 165px;
-    height: 132px;
-    border-radius: 10px;
-    font-size: 10px;
-    box-shadow: 2px 1px 0.3px whitesmoke;
-}
-
-.Cartehoteldelamer:hover {
-    transform: scale(1.2);
-    transition: transform 1ms;
-}
-
-.carte09 {
-    background-color: #ffff;
-    border: 1px solid transparent;
-    font-size: 10px;
-    text-align: start;
-    width: 165px;
-    height: 70px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-left: 1px;
-}
-
-.titres4 {
-    font-weight: bolder;
-    margin-left: 10px;
-    position: relative;
-    top: -12px;
-}
-
-.NI4 {
-    margin-left: 10px;
-    position: relative;
-    top: -20px;
-}
-
-.Istars4 {
-    background-color: #ffff;
-    border: 0px solid none;
-    color: #0065fc;
-    margin-left: 10px;
-    position: relative;
-    top: -23px;
-}
-
-.grey {
-    color: rgb(226, 225, 225);
-}
-
-.CarteAubergelePanier {
-    background-color: white;
-    border: 0.1px solid white;
-    padding: 1px;
-    padding-left: 0px;
-    text-align: start;
-    margin-top: 25px;
-    margin-left: 0px;
-    width: 165px;
-    height: 132px;
-    border-radius: 10px;
-    font-size: 10px;
-    box-shadow: 2px 1px 0.3px whitesmoke;
-    transition: transform 1ms;
-}
-
-.CarteAubergelePanier:hover {
-    transform: scale(1.2);
-}
-
-.carte10 {
-    background-color: #ffff;
-    border: 1px solid transparent;
-    font-size: 10px;
-    text-align: start;
-    width: 165px;
-    height: 70px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-left: 1px;
-}
-
-.titres5 {
-    font-weight: bolder;
-    margin-left: 10px;
-    position: relative;
-    top: -12px;
-}
-
-.NI5 {
-    margin-left: 10px;
-    position: relative;
-    top: -20px;
-}
-
-.Istars5 {
-    background-color: #ffff;
-    color: #0065fc;
-    margin-left: 10px;
-    position: relative;
-    top: -23px;
-}
-
-.CarteHotelchezAmania {
-    background-color: white;
-    border: 0.1px solid white;
-    padding: 1px;
-    padding-left: 0px;
-    margin-top: 25px;
-    text-align: start;
-    width: 165px;
-    height: 132px;
-    border-radius: 10px;
-    font-size: 10px;
-    box-shadow: 2px 1px 0.3px whitesmoke;
-    transition: transform 1ms;
-}
-
-.CarteHotelchezAmania:hover {
-    transform: scale(1.2);
-}
-
-.carte11 {
-    background-color: #ffff;
-    border: 1px solid transparent;
-    font-size: 10px;
-    text-align: start;
-    width: 165px;
-    height: 70px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-left: 1px;
-}
-
-.HA {
-    font-weight: bolder;
-    margin-left: 10px;
-    position: relative;
-    top: -12px;
-}
-
-.NI6 {
-    margin-left: 10px;
-    position: relative;
-    top: -20px;
-}
-
-.Istars6 {
-    background-color: #ffff;
-    color: #0065fc;
-    border: 0px solid none;
-    margin-left: 10px;
-    position: relative;
-    top: -23px;
-}
-
-.titres {
-    display: inline-flex;
-    font-size: 14px;
-    margin-left: -100px;
-    justify-content: space-evenly;
-}
-
-.Cartehotellesoleildumatin {
-    margin-top: -10px;
-    margin-right: 25px;
-    border: 1px solid white;
-    background-color: #ffff;
-    height: 80px;
-    width: 210px;
-    border-radius: 10px;
-    text-align: justify;
-    align-items: flex-start;
-    font-size: 9px;
-    box-shadow: 2px 1px 0.3px whitesmoke;
-    margin-left: 30px;
-    caption-side: top;
-}
-
-.Cartehotellesoleildumatin:hover {
-    transform: scale(1.2);
-}
-
-.Cartehotellesoleildumatin {
-    display: flex;
-    margin-bottom: 20px;
-    padding: 3px;
-    align-items: center;
-}
-
-.HSM {
-    align-items: flex-start;
-    justify-content: flex-start;
-    caption-side: top;
-    margin-left: 10px;
-    margin-top: -2px;
-    /*position: relative;
-	top:-9px;
-	right:-10px;;*/
-}
-
-.NI7 {
-    display: block;
-    align-items: flex-start;
-    justify-content: flex-start;
-    caption-side: top;
-    margin-left: 10px;
-    margin-top: -3px;
-    /*position: relative;
-	top:-6px;
-	right:*/
-}
-
-.Istars7 {
-    display: flex;
-    color: #0065fc;
-    justify-content: flex-start;
-    caption-side: top;
-    margin-left: 10px;
-    margin-top: 20px;
-    /* position: relative;
-	top:12px;
-	right:*/
-}
-
-.carte12 {
-    background-color: #ffff;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
-.CarteAucouereauchambreHotes {
-    margin-top: 15px;
-    margin-left: 20px;
-    margin-right: 20px;
-    border: 1px solid white;
-    background-color: #ffff;
-    height: 80px;
-    width: 210px;
-    border-radius: 10px;
-    font-size: 9px;
-    box-shadow: 2px 1px 0.3px whitesmoke;
-    margin-bottom: 20px;
-    caption-side: top;
-}
-
-.CarteAucouereauchambreHotes:hover {
-    transition: transform 1ms;
-    transform: scale(1.2);
-}
-
-.CarteAucouereauchambreHotes {
-    display: flex;
-    margin-top: 20px;
-    padding: 3px;
-    align-items: flex-start;
-}
-
-.ACDCH {
-    align-items: flex-start;
-    justify-content: flex-start;
-    caption-side: top;
-    margin-left: 10px;
-    margin-top: -0px;
-    /*position: relative;
-	top:-9px;
-	right:-10px;;*/
-}
-
-.Istars8 {
-    display: flex;
-    color: #0065fc;
-    justify-content: flex-start;
-    caption-side: top;
-    margin-left: 10px;
-    margin-top: 20px;
-    /* position: relative;
-	top:12px;
-	right:*/
-}
-
-.grey {
-    color: rgb(226, 225, 225);
-}
-
-.NI8 {
-    display: block;
-    align-items: flex-start;
-    justify-content: flex-start;
-    caption-side: top;
-    margin-left: 10px;
-    margin-top: 5px;
-    /*position: relative;
-	top:-6px;
-	right:*/
-}
-
-.carte13 {
-    background-color: #ffff;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
-.CarteHotelToutbleuetBlanc {
-    align-items: flex-start;
-    justify-content: flex-start;
-    margin-top: 10px;
-    margin-left: 0px;
-    margin-right: 0px;
-    margin-bottom: 20px;
-    border: 1px solid white;
-    background-color: #ffff;
-    height: 80px;
-    width: 210px;
-    border-radius: 10px;
-    box-shadow: 2px 1px 0.3px whitesmoke;
-    padding-bottom: 0px;
-    font-size: 9px;
-    caption-side: top;
-}
-
-.CarteHotelToutbleuetBlanc:hover {
-    transition: transform 1ms;
-    transform: scale(1.2);
-}
-
-.CarteHotelToutbleuetBlanc {
-    display: flex;
-    margin-top: 20px;
-    padding: 3px;
-    align-items: flex-end;
-}
-
-.titres9 {
-    align-items: flex-start;
-    justify-content: flex-start;
-    caption-side: top;
-    margin-left: 10px;
-    margin-bottom: -3px;
-    /*position: relative;
-	top:-9px;
-	right:-10px;;*/
-}
-
-.NI9 {
-    display: block;
-    align-items: flex-start;
-    justify-content: flex-start;
-    caption-side: top;
-    margin-left: 12px;
-    margin-bottom: 3px;
-    /*position: relative;
-	top:-6px;
-	right:*/
-}
-
-.Istars9 {
-    display: flex;
-    color: #0065fc;
-    justify-content: flex-start;
-    caption-side: top;
-    margin-left: 12px;
-    margin-top: 25px;
-    padding-bottom: 5px;
-    /* position: relative;
-	top:12px;
-	right:*/
-}
-
-.grey {
-    color: rgb(226, 225, 225);
-}
-
-.carte14 {
-    background-color: #ffff;
-    border-bottom-left-radius: 10px;
-    border-top-left-radius: 10px;
-}
-
-.Viewport {
-    padding-left: 12px;
-    padding-top: 12px;
-    font-weight: bold;
-}
-
-.carte15 {
+.activitePortraitCarte {
+    object-fit: cover;
     display: block;
     height: 325px;
-    width: 205px;
+    width: 200px;
     background: cover;
     border: 1px solid transparent;
     text-align: center;
@@ -1780,33 +670,11 @@ a:visited .Activite {
     border-top-right-radius: 10px;
     margin-left: 0px;
     box-shadow: 2px 1px 0.3px whitesmoke;
+    font-weight: bolder;
 }
 
-.fortdepomegue {
-    height: 170px;
-    width: 203px;
-    background-color: whitesmoke;
-    border: 0.1px solid transparent;
-    text-align: justify;
-    border-radius: 10px;
-    box-shadow: 7px -5px -3px #ffff;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-size: cover;
-}
-
-.fortdepomegue:hover {
-    transition: transform 1ms;
-    transform: scale(1.2);
-}
-
-.FortdePomegues {
-    padding-left: 12px;
-    padding-top: 12px;
-    font-weight: bold;
-}
-
-.carte16 {
+.activiteLandscapeCarte {
+    object-fit: cover;
     height: 136px;
     width: 203px;
     background-color: #ffff;
@@ -1814,154 +682,18 @@ a:visited .Activite {
     border-top-left-radius: 10px;
     border-top-right-radius: 10px;
     font-size: 10px;
-}
-
-.ilesdufrioul {
-    height: 170px;
-    width: 203px;
-    background-color: whitesmoke;
-    border: 1px solid transparent;
-    border-radius: 10px;
-    font-size: 10px;
-    padding-bottom: 5px;
-    box-shadow: 7px -5px -3px #ffff;
-    margin-top: 0px;
-    padding-top: 20px;
-    margin-left: 20px;
-    margin-right: 20px;
-    background-size: cover;
-}
-
-.ilesdufrioul:hover {
-    transition: transform 1ms;
-    transform: scale(1.2);
-}
-
-.frioul {
-    padding-left: 12px;
-    padding-top: 12px;
-    font-weight: bold;
-}
-
-.carte17 {
-    height: 88px;
-    width: 203px;
-    border: 1px solid #ffff;
-    text-align: justify;
-    border-bottom: #ffff;
-    padding-bottom: px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    align-items: center;
-    margin-left: 0px;
-}
-
-.Calenques {
-    padding-left: 12px;
-    padding-top: 12px;
-    font-weight: bold;
-}
-
-.carte18 {
-    display: block;
-    height: 325px;
-    width: 205px;
-    background: cover;
-    border: 1px solid transparent;
-    text-align: center;
-    border-bottom-color: whitesmoke;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-left: 0px;
-    box-shadow: 2px 1px 0.3px whitesmoke;
-}
-
-.notredamedelagarde {
-    height: 120px;
-    width: 203px;
-    background-color: whitesmoke;
-    border: 1px solid transparent;
-    font-size: 10px;
-    border-radius: 10px;
-    box-shadow: 7px -5px -3px #ffff;
-    z-index: 3;
-    background-size: cover;
-    margin: 0px;
-    margin-left: 20px;
-    margin-top: 20px;
-}
-
-.notredamedelagarde:hover {
-    transition: transform 1ms;
-    transform: scale(1.2);
-}
-
-.Dame {
-    padding-left: 12px;
-    padding-top: 12px;
-    font-weight: bold;
-}
-
-.carte19 {
-    display: flex;
-    height: 88px;
-    width: 203px;
-    border: 1px solid #ffff;
-    text-align: justify;
-    border-bottom: #ffff;
-    padding-bottom: px;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    margin-left: 0px;
-}
-
-.longchamp {
-    height: 170px;
-    width: 203px;
-    background-color: whitesmoke;
-    border: 0.1px solid transparent;
-    text-align: justify;
-    border-radius: 10px;
-    font-size: 10px;
-    box-shadow: 7px -5px -3px #ffff;
-    padding-top: 20px;
-    background-size: cover;
-    margin: 0px;
-    margin-left: 20px;
-}
-
-.longchamp:hover {
-    transition: transform 1ms;
-    transform: scale(1.2);
-}
-
-.long {
-    padding-left: 12px;
-    padding-top: 12px;
-    font-weight: bold;
-}
-
-.carte20 {
-    height: 136px;
-    width: 203px;
-    border-bottom: #ffff;
-    border-top-left-radius: 10px;
-    border-top-right-radius: 10px;
-    font-size: small;
-    box-shadow: 2px 1px 0.3px whitesmoke;
 }
 
 .footer {
     display: grid;
-    grid-template-columns: auto auto auto;
+    grid-template-columns:170px 170px 170px;
     border: 1px solid #f2f2f2;
     background-color: #f2f2f2;
-    width: fit-content;
+    justify-content: space-evenly;
+    width: 100%;
     height: auto;
-    padding-bottom: 30px;
-    gap: 200px;
-    font-size: small;
-    margin-left: 10px;
+    padding-bottom:20px;
+    margin:auto;
 }
 
 footer a {
@@ -1970,32 +702,29 @@ footer a {
 
 .footer1 {
     display: block;
-    /* flex-direction: row; */
-    /* align-content: center; */
-    /* align-items: flex-start; */
-    /* justify-content: left; */
-    /* list-style: none; */
-    padding-left: 18px;
+    margin-left:-80px;
 }
 
 .footer2 {
+    flex-direction: column;
+    align-content: flex-end;
+    align-items: stretch;
+    justify-content: center;
     display: block;
-    /* flex-direction: row; */
-    /* align-content: center; */
-    /* align-items: flex-start; */
-    /* justify-content: left; */
     list-style: none;
-    padding-left: 18px;
+    padding:0px;
 }
 
 .footer3 {
     display: block;
-    /* flex-direction: row; */
-    /* align-content: center; */
-    /* align-items: flex-start; */
-    /* justify-content: left; */
+    flex-direction: column;
+    /* align-content: flex-end; */
+    /* align-items: stretch; */
+    /* justify-content: center; */
     list-style: none;
-    padding-left: 18px;
+    /* padding-left: 18px; */
+    /* margin-right: 40px; */
+    padding:0px;
 }
 
 footer ul {
@@ -2005,158 +734,336 @@ footer ul {
     margin: 0px;
 }
 
+.footerTitle {
+    font-weight: bold;
+    font-size: larger;
+}
 
-/* @media screen and (min-width:1000px) {
-    .b {
-        width: fit-content;
-        justify-items: center;
-        margin-top: 10px;
-    }
-    .b1 {
-        width: fit-content;
-    }
-    .lescartes {
-    }
-} */
+.footerLink {
+    font-weight: normal;
+    font-size: small;
+    margin-bottom: 20px;
+}
 
+/* ------------------ 375px Breakpoint ------------------------- */
 @media screen and (max-width: 375px) {
+    html, body {
+        margin-right:0px;
+        /* display:flex;
+        flex-wrap: wrap; */
+    }
+    .logo {
+        margin-left:12px;
+        margin-bottom: 20px;
+    }
+    .ReserviaHebergement {
+        display:inline-flex;
+        flex-direction: column;
+        flex-wrap: wrap;
+        height: auto;
+        width: 100%;
+        margin-left: -10px;
+        font-size: 15px;
+    }
+    .Hebergement {
+        width:100%;
+        height: fit-content;
+        border-bottom: 1px solid blue;
+        color: #0065fc;
+        font-weight: bolder;
+        margin-left: -28px;
+        height: fit-content;
+    }
+    .Activite {
+        width:100%;
+        height: fit-content;
+        font-weight: bolder;
+        margin-left: 0px;
+        /* height: fit-content; */
+        margin-left: 23px;   
+    }
+    .Activite a:hover{
+        border-bottom: 1px solid blue;
+    }
+
+    .inscription {
+        display:flex;
+        color: #0065fc;
+        font-weight: bolder;
+        margin-top:-80px;
+        margin-left: -70px;
+    }
+    
     .TrouvezvotreHebergement {
         width: fit-content;
-        margin: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+        width:80%;
+        font-size: 23px;
+    }
+
+    .centreville{
+        width: fit-content;
+        /* margin: 0px; */
         margin-right: 30px;
+        width:288px;
+        font-size:17px;
+        font-weight: lighter;
+
+    }
+    .Btns {
+        width:210px;
+        height: 35px;
+        /* margin: 0px; */
+        padding: 0px;
+    }
+    .Btn {
+        display: none;
+    }
+
+    i.fa-search{
+        display: inline-flex;
+        flex-direction: row;
+        width: fit-content;
+        color: white;
+        background-color: #0065fc;
+        border: 1px solid #0065fc;
+        border-radius: 10px;
+        padding: 10px;
+        font-size: 12px;
+        font-weight: bold;
+        margin:0px;
+        margin-left: -10px;;
+    }
+    .filtres{
+        display:block;
+        flex-direction: column;
+        margin-top: 0px;
+
+    }
+    .btn1and2{
+     display: flex;
+     flex-direction: row;
+     /* flex-wrap: wrap; */
+     margin-left: -67px;
+     margin-top: 15px;
+       
+    }
+    .btn2{
+        margin-left: 88px;
+
+
+    }
+    .btn3{
+        display: inline-flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+        margin-left: -265px;
+        margin-top: 70px;
+
+    }
+    
+    .btn3and4{
+        display:flex;
+        flex-direction: row;
+        flex-wrap: wrap;
+
     }
     .plude500 {
         font-size: 16px;
+        width:70%;
+        margin-left: -3px;
+  
+    
     }
     .lescartesdemarseille {
+        background-color:transparent;
         display: inline-flex;
         flex-direction: column-reverse;
+        padding:0px;
+        margin: 0px;
+        width: 100%;
     }
     .b {
-        margin: 0px;
-        margin-top: 30px;
-        width: 95%;
+        background-color:transparent ; 
+        margin-left: 5px;
+        margin-right: 5px;
+        padding: 0px;
+        margin-top: 5px;
+        width: 100%;
         justify-items: center;
     }
     .HM {
         font-size: large;
         margin-bottom: 0px;
+        margin-left: 12px;
     }
     .HMHori {
         font-size: large;
+        margin-left: -100px; 
         margin-bottom: 0px;
-        align-items: flex-start;
+        align-items: left;
+        /* align-items: flex-start; */
+    }
+    .fa-chart-line {
+        position: relative;
+        top: -20px;
+        margin-right: -255px; 
+        font-size: 16px;
     }
     .b1 {
-        margin: 0px;
-        width: 95%;
+        align-items: center;
+        /* margin: 0px; */
+        padding: 0px;
+        margin-left:-29px ;
+        margin-right:px; 
+        margin-top: 30px;
+        width: 100%;
+        height:fit-content;
         justify-items: center;
+        /* background-color: red; */
     }
     .lescartes {
+        background-color: transparent;
         display: inline-flex;
         flex-direction: column;
-        width: 95%;
+        width: 80%;
         margin: 0px;
+        height: auto;
     }
     .Cartehotel {
+        /* background-color:yellow; */
         width: 100%;
+        height:8%;
         margin: 0px;
-        margin-bottom: 15px;
-        margin-left: 3px;
-        margin-right: 3px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
         padding: 0px;
+        align-items: center;
+    }
+    .titreHotel, .NI, .Istars{
+        font-size: 16px;;
     }
     .Cartehotel:hover {
         transform: none;
     }
     .carte {
+        background-color:grey;
         width: 100%;
-        height: 180px;
+        height: 70px;
         object-fit: cover;
     }
+    /* .activitePortrait{
+        width: 100%;
+        height:8%;
+        margin: 0px;
+        margin-bottom: 20px;
+        margin-left: 0px;
+        margin-right: 0px;
+        padding: 0px;
+    } */
+    .carteHori{
+        background-color: black;
+        height: 120px;
+        width: 110px;
+    }
     .CartehotelHori {
-        width: 90%;
-        margin: 20px;
-        /* margin-bottom: 15px;
-        margin-left:3px;
-        margin-right:3px; */
-        /* padding:0px;        */
+        margin-bottom: 25px; 
+        width:75%;
+        height: auto;
+        font-size: 2px;
+        /* margin-left:10px;
+        margin-right: 5px; */
+        /* margin: 20px; */
+        font-size: 12px;  
+
     }
     .CartehotelHori:hover {
-        transform: none;
+        transform: 1:2;
     }
     .lescartesbas {
+        /* background-color: bisque; */
         width: 95%;
-        margin: 0px;
+        margin-left: -3px;
+        margin-right:0px ;
         display: inline-flex;
         flex-direction: column;
     }
     .footer {
         display: inline-flex;
         flex-direction: column;
-        width: fit-content;
-    }
-    .footer1,
-    .footer2,
-    .footer3 {
         margin-left: 10px;
-    }
-    .vieuxport {
-        margin-left: 0px;
+        padding: 0px;
+        padding-bottom: 30px;
+        padding-right: 30px;
         width: 100%;
+        font-size: 25px;
     }
-    .vieuxport:hover {
-        transform: none;
-    }
-    .carte15,
-    .carte18,
-    .carte16,
-    .carte17,
-    .carte19,
-    .carte20 {
-        width: 100%;
-        margin-left: 0px;
-        margin-top: 10px;
-    }
-    .fortdepomegue {
-        width: 100%;
-        margin-left: 0px;
-        margin-top: 10px;
-    }
-    .fortdepomegue:hover {
-        transform: none;
-    }
-    .ilesdufrioul {
-        margin-top: 10px;
-        margin-left: 0px;
+    .footer1, .footer2, .footer3 {
+        margin-left: 10px;
         margin-right: 0px;
-        width: 100%;
     }
-    .ilesdufrioul:hover {
+    .activitePortraitCarte, .activiteLandscapeCarte {
+        width: 100%;
+        margin: 0px;
+        padding: 0px;
+        height: 90px;
+    
+    }
+    .activitePortrait {
+        /* background-color:brown; */
+        margin: 20px;
+        padding: 0px;
+        width: 79%;
+        height:8%;
+    }
+    .activitePortrait:hover {
         transform: none;
     }
-    .parcnationaldescalenques {
-        margin-top: 10px;
-        margin-left: 0px;
-        width: 100%;
+    .activitePortraitCap {
+        font-size: large;
+        /* background-color: red; */
+        height:auto;
+        width:auto ;
+       
     }
-    .parcnationaldescalenques:hover {
+    .activiteLandscape {
+        margin: 20px;
+        width: 95%;
+        padding: 0px;
+        height:auto;
+        width:280px ;
+    } 
+    .activiteLandscape:hover {
         transform: none;
     }
-    .notredamedelagarde {
-        margin-top: 10px;
-        margin-left: 0px;
+    .activiteLandscapeCap {
+        font-size: large;
+        /* background-color: yellow; */
         width: 100%;
+        height:vh;
     }
-    .notredamedelagarde:hover {
-        transform: none;
+    .footerTitle {
+        font-size: medium;
+        font-weight: bolder;
+        margin-bottom: 10px;
     }
-    .longchamp {
-        margin-top: 10px;
-        margin-left: 0px;
-        width: 100%;
+    
+    .footerLink {
+        font-weight: normal;
+        font-size: large;
+        margin-bottom: 20px;
     }
-    .longchamp:hover {
-        transform: none;
+
+    .Marseille{
+        font-size: 24px;
+        font-weight: bolder;
+        margin-left: 13px;
+    }
+    .AP{
+        font-size: 18px;
+        font-weight: bolder; 
+        margin-left: 10px;      
     }
 }
